@@ -1,0 +1,31 @@
+.festival-card {
+  background-color: #171717;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.festival-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(93, 93, 255, 0.4);
+}
+
+.festival-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.festival-card h6 {
+  padding: 10px;
+  margin: 0;
+}
+
+.festival-card p {
+  padding: 0 10px 10px;
+  margin: 0;
+  font-size: 0.9em;
+  color: #ccc;
+}

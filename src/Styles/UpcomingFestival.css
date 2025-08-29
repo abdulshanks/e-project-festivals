@@ -1,0 +1,61 @@
+.upcoming-festivals-card {
+  background-color: #171717;
+  border-radius: 10px;
+  padding: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.upcoming-festivals-header h4 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.upcoming-festivals-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.upcoming-festival-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #2c2c2c;
+  border-radius: 8px;
+}
+
+.festival-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.festival-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.festival-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.festival-name {
+  font-weight: bold;
+  margin: 0;
+}
+
+.festival-date-location {
+  font-size: 0.9em;
+  color: #ccc;
+  margin: 0;
+}
+
+.festival-price {
+  color: #fff;
+  font-weight: bold;
+}

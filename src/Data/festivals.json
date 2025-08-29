@@ -1,0 +1,1716 @@
+[
+  {
+    "id": "islam",
+    "name": "Eid al-Fitr",
+    "short_description": "Explore the rich history, traditions, and cultural significance of Eid al-Fitr celebrated around the world by Muslims.",
+    "image_url": "Images/eid1.jpeg",
+    "details": {
+      "celebrated_by": "Muslim communities worldwide",
+      "location": "Worldwide",
+      "date": "1st shawwal",
+      "duration": "3 days",
+      "participants": "1.8 billion+",
+      "organizer": "Islamic Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "Festival marking the end of Ramadan, the holy month of fasting in Islam.",
+      "historic_importance": "Eid al-Fitr marks the end of Ramadan, the holy month of fasting. It celebrates the spiritual achievement of self-discipline, empathy for the less fortunate, and strengthening community bonds through shared worship and charity. The festival emphasizes gratitude, forgiveness, and community unity.",
+      "cultural_significance": "Marks the end of Ramadan fasting"
+    },
+    "traditions_and_practices": [
+      "Special prayers",
+      "Feasting",
+      "Charity (Zakat)",
+      "New clothes",
+      "Family visits",
+      "Sweet exchanges"
+    ],
+    "gallery_images": [
+      "/Images/eid1.jpeg",
+      "/Images/eid2.jpeg",
+      "/Images/eid3.jpeg",
+      "/Images/eid4.jpeg",
+      "/Images/eid5.jpeg",
+      "/Images/eid6.jpeg"
+    ]
+  },
+  {
+    "id": "hanukkah",
+    "name": "Hanukkah",
+    "short_description": "A Jewish festival commemorating the rededication of the Second Temple in Jerusalem.",
+    "image_url": "/Images/hanukkah1.png",
+    "details": {
+      "celebrated_by": "Jewish communities worldwide",
+      "location": "Worldwide",
+      "date": "25th of Kislev (late November or December)",
+      "duration": "8 days",
+      "participants": "15 million+",
+      "organizer": "Jewish Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "The 'Festival of Lights' celebrates a miracle that occurred when a small amount of oil for the menorah lasted for eight nights.",
+      "historic_importance": "Hanukkah commemorates the Maccabean Revolt and the rededication of the Second Temple in Jerusalem after its desecration. The central event is the miracle of the oil that burned for eight days despite there being only enough for one, which is why the festival lasts for eight nights.",
+      "cultural_significance": "Celebrates religious freedom and perseverance"
+    },
+    "traditions_and_practices": [
+      "Lighting the menorah",
+      "Playing dreidel",
+      "Eating fried foods (latkes, sufganiyot)",
+      "Exchanging gifts",
+      "Singing Hanukkah songs"
+    ],
+    "gallery_images": [
+      "/Images/hanukkah1.png",
+      "/Images/hanukkah2.png",
+      "/Images/hanukkah3.jpeg",
+      "/Images/hanukkah4.jpeg"
+    ]
+  },
+  {
+    "id": "christmas",
+    "name": "Christmas",
+    "short_description": "A Christian festival celebrating the birth of Jesus Christ.",
+    "image_url": "/Images/christmas1.png",
+    "details": {
+      "celebrated_by": "Christian communities worldwide",
+      "location": "Worldwide",
+      "date": "December 25th",
+      "duration": "1 day (with a holiday season)",
+      "participants": "2.5 billion+",
+      "organizer": "Christian communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A celebration of the birth of Jesus, marked by traditions of giving, family, and reflection.",
+      "historic_importance": "Christmas celebrates the birth of Jesus Christ in Bethlehem. Although the exact date of his birth is unknown, December 25th has been a significant date for the celebration since the 4th century. It is a time for Christians to reflect on the meaning of his life and teachings.",
+      "cultural_significance": "Celebrates the birth of Jesus Christ"
+    },
+    "traditions_and_practices": [
+      "Attending church services",
+      "Exchanging gifts",
+      "Decorating Christmas trees",
+      "Family feasts",
+      "Singing carols"
+    ],
+    "gallery_images": [
+      "/Images/christmas1.png",
+      "/Images/christmas2.jpeg",
+      "/Images/christmas3.jpeg",
+      "/Images/christmas4.jpeg"
+    ]
+  },
+  {
+    "id": "holi",
+    "name": "Holi",
+    "short_description": "The Hindu 'Festival of Colors,' celebrating the arrival of spring.",
+    "image_url": "/Images/holi1.png",
+    "details": {
+      "celebrated_by": "Hindu communities worldwide",
+      "location": "India, Nepal, and other Hindu communities",
+      "date": "Early March",
+      "duration": "2 days",
+      "participants": "1 billion+",
+      "organizer": "Local Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A vibrant and joyful festival where people throw colored powders and water at each other.",
+      "historic_importance": "Holi celebrates the triumph of good over evil, as well as the arrival of spring. It is associated with the legend of Holika Dahan, where the evil demoness Holika was burned, saving the good-hearted Prahlad. It also has ties to the divine love of Radha and Krishna.",
+      "cultural_significance": "Celebrates spring, love, and new beginnings"
+    },
+    "traditions_and_practices": [
+      "Throwing colored powders (gulal)",
+      "Playing with water guns and balloons",
+      "Bonfire rituals (Holika Dahan)",
+      "Singing and dancing",
+      "Feasting on sweets"
+    ],
+    "gallery_images": [
+      "/Images/holi1.png",
+      "/Images/holi2.jpeg",
+      "/Images/holi3.jpeg",
+      "/Images/holi4.jpeg"
+    ]
+  },
+  {
+    "id": "eid-al-adha",
+    "name": "Eid al-Adha",
+    "short_description": "An Islamic festival honoring the willingness of Ibrahim (Abraham) to sacrifice his son.",
+    "image_url": "/Images/adha1.jpeg",
+    "details": {
+      "celebrated_by": "Muslim communities worldwide",
+      "location": "Worldwide",
+      "date": "10th of Dhu al-Hijjah",
+      "duration": "4 days",
+      "participants": "1.8 billion+",
+      "organizer": "Islamic Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "The 'Festival of Sacrifice' marks the end of the annual Hajj pilgrimage and honors the prophet Ibrahim's obedience to God.",
+      "historic_importance": "Eid al-Adha commemorates the story of Ibrahim, who was commanded by God to sacrifice his son, Isma'il. Just before the sacrifice, God replaced the son with a ram. This festival symbolizes faith, obedience, and the importance of selfless sacrifice.",
+      "cultural_significance": "Honors faith and sacrifice"
+    },
+    "traditions_and_practices": [
+      "Special prayers (Salat al-Eid)",
+      "Slaughtering an animal (Qurbani)",
+      "Distributing meat to family and the needy",
+      "Feasting and gatherings",
+      "Wearing new clothes"
+    ],
+    "gallery_images": [
+      "/Images/adha1.jpeg",
+      "/Images/adha2.jpeg",
+      "/Images/adha3.jpeg",
+      "/Images/adha4.jpeg"
+    ]
+  },
+  {
+    "id": "vesak",
+    "name": "Vesak",
+    "short_description": "A Buddhist festival commemorating the birth, enlightenment, and passing of Gautama Buddha.",
+    "image_url": "/Images/vesak1.jpeg",
+    "details": {
+      "celebrated_by": "Buddhist communities worldwide",
+      "location": "Asia and other Buddhist communities",
+      "date": "Full moon day in May",
+      "duration": "1 day",
+      "participants": "500 million+",
+      "organizer": "Buddhist Temples and communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A day for spiritual reflection, meditation, and performing good deeds in honor of the Buddha.",
+      "historic_importance": "Vesak celebrates the three most significant events in the life of Gautama Buddha: his birth in Lumbini, his enlightenment under the Bodhi tree, and his passing away. This day is a time for Buddhists to honor his life and reflect on his teachings.",
+      "cultural_significance": "Commemorates the life of the Buddha"
+    },
+    "traditions_and_practices": [
+      "Visiting temples",
+      "Giving alms to monks",
+      "Releasing animals",
+      "Meditating and chanting",
+      "Lantern processions"
+    ],
+    "gallery_images": [
+      "/Images/vesak1.jpeg",
+      "/Images/vesak2.jpeg",
+      "/Images/vesak3.jpeg",
+      "/Images/vesak4.jpeg"
+    ]
+  },
+  {
+    "id": "songkran",
+    "name": "Songkran",
+    "short_description": "The Thai New Year festival, known for its water-throwing traditions.",
+    "image_url": "/Images/songkran1.jpeg",
+    "details": {
+      "celebrated_by": "Thai and Buddhist communities",
+      "location": "Thailand",
+      "date": "April 13-15",
+      "duration": "3 days",
+      "participants": "60 million+",
+      "organizer": "Local Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A festival of purification, where water is used to wash away bad luck and welcome the new year.",
+      "historic_importance": "Songkran is the traditional Thai New Year's Day. The throwing of water symbolizes the washing away of sins and bad luck from the previous year, as well as a gesture of respect towards elders. It is a time for family reunions and paying homage to ancestors.",
+      "cultural_significance": "Celebrates the Thai New Year"
+    },
+    "traditions_and_practices": [
+      "Water fights",
+      "Sprinkling water on elders' hands",
+      "Visiting temples",
+      "Making merit",
+      "Family gatherings"
+    ],
+    "gallery_images": [
+      "/Images/songkran1.jpeg",
+      "/Images/songkran2.jpeg",
+      "/Images/songkran3.jpeg",
+      "/Images/songkran4.jpeg"
+    ]
+  },
+  {
+    "id": "shavuot",
+    "name": "Shavuot",
+    "short_description": "A Jewish festival celebrating the giving of the Torah at Mount Sinai.",
+    "image_url": "/Images/shavuot1.jpeg",
+    "details": {
+      "celebrated_by": "Jewish communities worldwide",
+      "location": "Worldwide",
+      "date": "6th of Sivan (late May or early June)",
+      "duration": "2 days (1 day in Israel)",
+      "participants": "15 million+",
+      "organizer": "Jewish Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A harvest festival that also commemorates the giving of the Ten Commandments to Moses on Mount Sinai.",
+      "historic_importance": "Shavuot marks the day God gave the Torah to the Jewish people at Mount Sinai, 50 days after the Exodus from Egypt. It is also a harvest festival, celebrating the first fruits of the wheat harvest.",
+      "cultural_significance": "Commemorates the giving of the Torah"
+    },
+    "traditions_and_practices": [
+      "Staying up all night to study Torah",
+      "Eating dairy foods (cheesecake, blintzes)",
+      "Decorating with greenery",
+      "Reading the Book of Ruth"
+    ],
+    "gallery_images": [
+      "/Images/shavuot1.jpeg",
+      "/Images/shavuot2.jpeg",
+      "/Images/shavuot3.jpeg",
+      "/Images/shavuot4.jpeg"
+    ]
+  },
+  {
+    "id": "rosh-hashanah",
+    "name": "Rosh Hashanah",
+    "short_description": "The Jewish New Year, a time of introspection and repentance.",
+    "image_url": "/Images/hashanah1.jpeg",
+    "details": {
+      "celebrated_by": "Jewish communities worldwide",
+      "location": "Worldwide",
+      "date": "1st of Tishrei (September or October)",
+      "duration": "2 days",
+      "participants": "15 million+",
+      "organizer": "Jewish Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A solemn and celebratory festival marking the beginning of the Jewish High Holy Days.",
+      "historic_importance": "Rosh Hashanah marks the creation of the world and is a time for self-reflection and asking for forgiveness. It is the beginning of the 'Days of Awe,' a 10-day period of repentance culminating in Yom Kippur.",
+      "cultural_significance": "Marks the Jewish New Year and a time of reflection"
+    },
+    "traditions_and_practices": [
+      "Blowing the shofar (ram's horn)",
+      "Eating apples dipped in honey",
+      "Attending synagogue services",
+      "Casting off sins (Tashlich)"
+    ],
+    "gallery_images": [
+      "/Images/hashanah1.jpeg",
+      "/Images/hashanah2.jpeg",
+      "/Images/hashanah3.jpeg",
+      "/Images/hashanah4.jpeg"
+    ]
+  },
+  {
+    "id": "yom-kippur",
+    "name": "Yom Kippur",
+    "short_description": "The Jewish 'Day of Atonement,' the holiest day of the year.",
+    "image_url": "/Images/kippur1.jpeg",
+    "details": {
+      "celebrated_by": "Jewish communities worldwide",
+      "location": "Worldwide",
+      "date": "10th of Tishrei (September or October)",
+      "duration": "1 day",
+      "participants": "15 million+",
+      "organizer": "Jewish Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A day of fasting and intense prayer for atonement and forgiveness.",
+      "historic_importance": "Yom Kippur is the culmination of the 'Days of Awe.' It is a day of complete fasting and prayer, where Jews seek forgiveness for their sins and ask for a good year ahead. It is believed that on this day, God inscribes a person's fate for the coming year.",
+      "cultural_significance": "A day of atonement and forgiveness"
+    },
+    "traditions_and_practices": [
+      "25-hour fast",
+      "Attending synagogue services",
+      "Wearing white clothing",
+      "Confession of sins"
+    ],
+    "gallery_images": [
+      "/Images/kippur1.jpeg",
+      "/Images/kippur2.jpeg",
+      "/Images/kippur3.jpeg",
+      "/Images/kippur4.jpeg"
+    ]
+  },
+  {
+    "id": "guru-purab",
+    "name": "Guru Purab",
+    "short_description": "A Sikh festival celebrating the birth anniversaries of the Sikh Gurus.",
+    "image_url": "/Images/purab1.jpeg",
+    "details": {
+      "celebrated_by": "Sikh communities worldwide",
+      "location": "Worldwide, particularly Punjab, India",
+      "date": "Varies with the Guru's birthday",
+      "duration": "1-3 days",
+      "participants": "25 million+",
+      "organizer": "Gurudwaras and Sikh Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A time for devotion and community service to honor the teachings and lives of the Sikh Gurus.",
+      "historic_importance": "Guru Purab celebrates the birthdays of the 10 Sikh Gurus. These days are a time for Sikhs to remember and honor the Gurus' teachings, which emphasize equality, devotion, and selfless service.",
+      "cultural_significance": "Honors the Sikh Gurus"
+    },
+    "traditions_and_practices": [
+      "Reading the Guru Granth Sahib",
+      "Processions (Nagar Kirtan)",
+      "Community meals (Langar)",
+      "Singing hymns (Kirtan)",
+      "Decorating Gurudwaras"
+    ],
+    "gallery_images": [
+      "/Images/purab1.jpeg",
+      "/Images/purab2.jpeg",
+      "/Images/purab3.jpeg",
+      "/Images/purab4.jpeg"
+    ]
+  },
+  {
+    "id": "lunar-new-year",
+    "name": "Lunar New Year (Chinese New Year)",
+    "short_description": "A festival celebrating the beginning of a new year on the traditional lunar calendar.",
+    "image_url": "/Images/lunar1.jpeg",
+    "details": {
+      "celebrated_by": "East and Southeast Asian communities",
+      "location": "China, Vietnam, Korea, etc.",
+      "date": "First day of the first lunar month (January or February)",
+      "duration": "Up to 15 days",
+      "participants": "1.5 billion+",
+      "organizer": "Local Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A time for family reunions, feasting, and honoring ancestors to welcome a prosperous new year.",
+      "historic_importance": "The Lunar New Year has a history spanning thousands of years, rooted in a time of honoring deities and ancestors. The festival is a time to cleanse bad luck from the past year and usher in good fortune for the new one.",
+      "cultural_significance": "Celebrates new beginnings and family bonds"
+    },
+    "traditions_and_practices": [
+      "Family reunion dinners",
+      "Giving red envelopes (hongbao)",
+      "Lion and dragon dances",
+      "Firecrackers",
+      "Visiting family and friends"
+    ],
+    "gallery_images": [
+      "/Images/lunar1.jpeg",
+      "/Images/lunar2.jpeg",
+      "/Images/lunar3.jpeg",
+      "/Images/lunar4.jpeg"
+    ]
+  },
+  {
+    "id": "diwali",
+    "name": "Diwali",
+    "short_description": "Explore the rich history, traditions, and cultural significance of Diwali celebrated in India.",
+    "image_url": "/Images/diwali1.jpeg",
+    "details": {
+      "celebrated_by": "Hindu, Jain, and Sikh communities worldwide",
+      "location": "India and diaspora",
+      "date": "Autumn (October or November)",
+      "duration": "5 days",
+      "participants": "1 billion+",
+      "organizer": "Local Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "The festival of lights, celebrating the victory of light over darkness and good over evil.",
+      "historic_importance": "Diwali commemorates the return of Lord Rama to Ayodhya after 14 years of exile and his victory over the demon king Ravana. It symbolizes the spiritual victory of light over darkness, knowledge over ignorance, and good over evil. The festival has been celebrated for over 2,500 years and represents one of the most significant celebrations in Hindu culture.",
+      "cultural_significance": "Celebrates the triumph of light over darkness"
+    },
+    "traditions_and_practices": [
+      "Lighting diyas and candles",
+      "Creating rangoli patterns",
+      "Exchanging sweets",
+      "Fireworks displays",
+      "Family gatherings",
+      "Lakshmi Puja ceremonies"
+    ],
+    "gallery_images": [
+      "/Images/diwali1.jpeg",
+      "/Images/diwali2.jpeg",
+      "/Images/diwali3.jpeg",
+      "/Images/diwali4.jpeg"
+    ]
+  },
+  {
+    "id": "easter",
+    "name": "Easter",
+    "short_description": "A Christian festival celebrating the resurrection of Jesus Christ from the dead.",
+    "image_url": "/Images/easter1.jpeg",
+    "details": {
+      "celebrated_by": "Christian communities worldwide",
+      "location": "Worldwide",
+      "date": "First Sunday after the full moon following the spring equinox",
+      "duration": "1 day (with a holy week)",
+      "participants": "2.5 billion+",
+      "organizer": "Christian communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "The most important Christian festival, symbolizing hope, renewal, and salvation.",
+      "historic_importance": "Easter commemorates the central event of Christian faith: the resurrection of Jesus Christ three days after his crucifixion. It marks the victory of life over death and is the fulfillment of biblical prophecies.",
+      "cultural_significance": "Celebrates the resurrection of Jesus"
+    },
+    "traditions_and_practices": [
+      "Attending church services",
+      "Egg hunts",
+      "Feasting (often with lamb)",
+      "Hot cross buns",
+      "Decorating eggs"
+    ],
+    "gallery_images": [
+      "/Images/easter1.jpeg",
+      "/Images/easter2.jpeg",
+      "/Images/easter3.jpeg",
+      "/Images/easter4.jpeg"
+    ]
+  },
+  {
+    "id": "obon",
+    "name": "Obon",
+    "short_description": "A Japanese Buddhist festival to honor the spirits of ancestors.",
+    "image_url": "/Images/obon1.jpeg",
+    "details": {
+      "celebrated_by": "Japanese Buddhist communities",
+      "location": "Japan",
+      "date": "Mid-August",
+      "duration": "3 days",
+      "participants": "125 million+",
+      "organizer": "Local Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A time when families reunite and return to their ancestral homes to pay respect to their departed relatives.",
+      "historic_importance": "Obon has been celebrated for over 500 years. It is believed that during this period, the spirits of the ancestors return to visit their living relatives. It is a time to show gratitude and remembrance to those who have passed on.",
+      "cultural_significance": "Honors the spirits of ancestors"
+    },
+    "traditions_and_practices": [
+      "Visiting graves",
+      "Bon Odori dance festivals",
+      "Floating lanterns (toro nagashi)",
+      "Family reunions",
+      "Offering prayers and food to ancestors"
+    ],
+    "gallery_images": [
+      "/Images/obon1.jpeg",
+      "/Images/obon2.jpeg",
+      "/Images/obon3.jpeg",
+      "/Images/obon4.jpeg"
+    ]
+  },
+  {
+    "id": "passover",
+    "name": "Passover",
+    "short_description": "A Jewish festival commemorating the liberation of the Israelites from slavery in ancient Egypt.",
+    "image_url": "/Images/passover1.jpeg",
+    "details": {
+      "celebrated_by": "Jewish communities worldwide",
+      "location": "Worldwide",
+      "date": "15th day of Nisan (March or April)",
+      "duration": "7-8 days",
+      "participants": "15 million+",
+      "organizer": "Jewish Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A celebration of freedom and the importance of remembering historical events.",
+      "historic_importance": "Passover commemorates the story of the Exodus, where the Israelites were freed from slavery in Egypt. The name 'Passover' refers to the angel of death 'passing over' the homes of the Israelites during the final plague on the Egyptians.",
+      "cultural_significance": "Commemorates the Exodus from Egypt"
+    },
+    "traditions_and_practices": [
+      "Seder meal",
+      "Eating matzah (unleavened bread)",
+      "Telling the story of the Exodus",
+      "Drinking four cups of wine",
+      "Cleansing the home of chametz (leavened grain)"
+    ],
+    "gallery_images": [
+      "/Images/passover1.jpeg",
+      "/Images/passover2.jpeg",
+      "/Images/passover3.jpeg",
+      "/Images/passover4.jpeg"
+    ]
+  },
+  {
+    "id": "mahasivratri",
+    "name": "Maha Shivratri",
+    "short_description": "A Hindu festival dedicated to the god Shiva, celebrating his divine dance and marriage.",
+    "image_url": "/Images/maha1.jpeg",
+    "details": {
+      "celebrated_by": "Hindu communities worldwide",
+      "location": "India, Nepal, and other Hindu communities",
+      "date": "14th night of the dark fortnight of the month of Phalguna",
+      "duration": "1 day and night",
+      "participants": "1 billion+",
+      "organizer": "Local Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A night of fasting, meditation, and prayer to honor Lord Shiva.",
+      "historic_importance": "Maha Shivratri is one of the most significant festivals in Hinduism. It is believed that on this night, Lord Shiva performs the 'Tandava,' the cosmic dance of creation, preservation, and destruction. It also celebrates the marriage of Shiva and Parvati.",
+      "cultural_significance": "Honors the god Shiva"
+    },
+    "traditions_and_practices": [
+      "Fasting",
+      "Worshipping Shiva Lingam",
+      "Meditation and yoga",
+      "Chanting mantras",
+      "Night-long vigil"
+    ],
+    "gallery_images": [
+      "/Images/maha1.jpeg",
+      "/Images/maha2.jpeg",
+      "/Images/maha3.jpeg",
+      "/Images/maha4.jpeg"
+    ]
+  },
+  {
+    "id": "magha-puja",
+    "name": "Magha Puja",
+    "short_description": "A Buddhist festival commemorating a major event in the life of the Buddha.",
+    "image_url": "/Images/magha1.jpeg",
+    "details": {
+      "celebrated_by": "Buddhist communities in Thailand, Laos, and Cambodia",
+      "location": "Thailand, Laos, Cambodia",
+      "date": "Full moon day of the third lunar month (February or March)",
+      "duration": "1 day",
+      "participants": "50 million+",
+      "organizer": "Buddhist Temples and communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A day to honor the Buddha and his teachings, and to reaffirm one's commitment to the Buddhist path.",
+      "historic_importance": "Magha Puja commemorates the day 1,250 of the Buddha's disciples came to hear him preach without any prior arrangement. This event is considered miraculous and a symbol of the perfect harmony within the Sangha (Buddhist community).",
+      "cultural_significance": "Honors the Buddha and his disciples"
+    },
+    "traditions_and_practices": [
+      "Visiting temples",
+      "Making merit",
+      "Meditation and chanting",
+      "Candlelight procession (Wian Tian)",
+      "Listening to sermons"
+    ],
+    "gallery_images": [
+      "/Images/magha1.jpeg",
+      "/Images/magha2.jpeg",
+      "/Images/magha3.jpeg",
+      "/Images/magha4.jpeg"
+    ]
+  },
+  {
+    "id": "purim",
+    "name": "Purim",
+    "short_description": "A Jewish festival commemorating the salvation of the Jewish people in ancient Persia.",
+    "image_url": "/Images/purim1.jpeg",
+    "details": {
+      "celebrated_by": "Jewish communities worldwide",
+      "location": "Worldwide",
+      "date": "14th of Adar (February or March)",
+      "duration": "1 day",
+      "participants": "15 million+",
+      "organizer": "Jewish Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A joyous festival filled with costumes, feasting, and community celebration.",
+      "historic_importance": "Purim celebrates the deliverance of the Jewish people from a plot to annihilate them, as recorded in the Book of Esther. It is a time to celebrate resilience, courage, and the triumph of good over evil.",
+      "cultural_significance": "Celebrates deliverance and joy"
+    },
+    "traditions_and_practices": [
+      "Reading the Megillah (Book of Esther)",
+      "Wearing costumes",
+      "Giving gifts of food (mishloach manot)",
+      "Feasting",
+      "Donating to charity"
+    ],
+    "gallery_images": [
+      "/Images/purim1.jpeg",
+      "/Images/purim2.jpeg",
+      "/Images/purim3.jpeg",
+      "/Images/purim4.jpeg"
+    ]
+  },
+  {
+    "id": "sankranti",
+    "name": "Makar Sankranti",
+    "short_description": "A Hindu harvest festival celebrated in different parts of India.",
+    "image_url": "/Images/makar1.jpeg",
+    "details": {
+      "celebrated_by": "Hindu communities in India",
+      "location": "India",
+      "date": "January 14th or 15th",
+      "duration": "1 day",
+      "participants": "1 billion+",
+      "organizer": "Local Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "Marks the transition of the sun into the zodiac sign of Makara (Capricorn).",
+      "historic_importance": "Makar Sankranti marks the end of the winter solstice and the beginning of longer days. It is a harvest festival that signifies the change of seasons and is celebrated with various rituals and traditions across India.",
+      "cultural_significance": "Celebrates the harvest and new beginnings"
+    },
+    "traditions_and_practices": [
+      "Kite flying",
+      "Bonfire rituals",
+      "Feasting on sweets (til-gud)",
+      "Taking a holy dip in rivers",
+      "Worshipping the sun god"
+    ],
+    "gallery_images": [
+      "/Images/makar1.jpeg",
+      "/Images/makar2.jpeg",
+      "/Images/makar3.jpeg",
+      "/Images/makar4.jpeg"
+    ]
+  },
+  {
+    "id": "dussehra",
+    "name": "Dussehra",
+    "short_description": "A Hindu festival celebrating the victory of good over evil.",
+    "image_url": "/Images/dussehra1.jpeg",
+    "details": {
+      "celebrated_by": "Hindu communities in India",
+      "location": "India, Nepal",
+      "date": "September or October",
+      "duration": "10 days (culminates on the 10th day)",
+      "participants": "1 billion+",
+      "organizer": "Local Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "The festival marks the end of the nine-day Navratri festival and celebrates the triumph of Lord Rama over the demon king Ravana.",
+      "historic_importance": "Dussehra, also known as Vijayadashami, commemorates the day Lord Rama killed Ravana, symbolizing the victory of good over evil. In some regions, it also marks the victory of the goddess Durga over the demon Mahishasura.",
+      "cultural_significance": "Celebrates the triumph of good over evil"
+    },
+    "traditions_and_practices": [
+      "Burning effigies of Ravana",
+      "Ram Leela plays",
+      "Processions",
+      "Feasting",
+      "Worshipping weapons and tools"
+    ],
+    "gallery_images": [
+      "/Images/dussehra1.jpeg",
+      "/Images/dussehra2.jpeg",
+      "/Images/dussehra3.jpeg",
+      "/Images/dussehra4.jpeg"
+    ]
+  },
+  {
+    "id": "kumbh-mela",
+    "name": "Kumbh Mela",
+    "short_description": "A mass Hindu pilgrimage in which Hindus gather to bathe in a sacred river.",
+    "image_url": "/Images/kumbh1.jpeg",
+    "details": {
+      "celebrated_by": "Hindu communities worldwide",
+      "location": "Four different sites in India (rotation)",
+      "date": "Every 12 years",
+      "duration": "Several weeks",
+      "participants": "Millions+",
+      "organizer": "Hindu Monastic Orders",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "The largest religious gathering in the world, believed to cleanse sins and achieve spiritual liberation.",
+      "historic_importance": "The Kumbh Mela has ancient roots and is mentioned in Hindu scriptures. The pilgrimage is based on the belief that a dip in the holy rivers at specific astrological times will wash away sins and free one from the cycle of rebirth.",
+      "cultural_significance": "A pilgrimage for spiritual purification"
+    },
+    "traditions_and_practices": [
+      "Holy dips (snan)",
+      "Sermons from holy men",
+      "Chanting and rituals",
+      "Donating to charity",
+      "Massive processions"
+    ],
+    "gallery_images": [
+      "/Images/kumbh1.jpeg",
+      "/Images/kumbh2.jpeg",
+      "/Images/kumbh3.jpeg",
+      "/Images/kumbh4.jpeg"
+    ]
+  },
+  {
+    "id": "thaipusam",
+    "name": "Thaipusam",
+    "short_description": "A Hindu festival celebrated by the Tamil community, dedicated to the god Murugan.",
+    "image_url": "/Images/thaipusam1.jpeg",
+    "details": {
+      "celebrated_by": "Tamil Hindu communities",
+      "location": "India, Malaysia, Singapore, and other Tamil communities",
+      "date": "Full moon in the Tamil month of Thai (January or February)",
+      "duration": "1 day",
+      "participants": "Millions+",
+      "organizer": "Hindu Temples and communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A festival of penance, where devotees carry elaborate offerings to seek blessings and fulfill vows.",
+      "historic_importance": "Thaipusam commemorates the day the goddess Parvati gave her son Murugan a vel (spear) to vanquish the demon Surapadman. The festival is a display of faith, endurance, and devotion, with participants undertaking acts of penance.",
+      "cultural_significance": "Celebrates the triumph of good over evil and devotion"
+    },
+    "traditions_and_practices": [
+      "Carrying kavadi (elaborate structures)",
+      "Piercings (tongue, cheeks, skin)",
+      "Fasting",
+      "Chanting",
+      "Pilgrimage to temples"
+    ],
+    "gallery_images": [
+      "/Images/thaipusam1.jpeg",
+      "/Images/thaipusam2.jpeg",
+      "/Images/thaipusam3.jpeg",
+      "/Images/thaipusam4.jpeg"
+    ]
+  },
+  {
+    "id": "nowruz",
+    "name": "Nowruz",
+    "short_description": "The Persian New Year, celebrated by diverse communities worldwide.",
+    "image_url": "/Images/nowruz1.jpeg",
+    "details": {
+      "celebrated_by": "Iranian, Zoroastrian, Baha'i, and Central Asian communities",
+      "location": "Iran, Afghanistan, Central Asia, and others",
+      "date": "Spring Equinox (March 20 or 21)",
+      "duration": "13 days",
+      "participants": "300 million+",
+      "organizer": "Local Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A festival marking the first day of spring and the renewal of nature.",
+      "historic_importance": "Nowruz has ancient roots in Zoroastrianism and is a celebration of the triumph of good over evil. It signifies a time of renewal, hope, and new beginnings. It has been celebrated for over 3,000 years.",
+      "cultural_significance": "Celebrates new beginnings and spring"
+    },
+    "traditions_and_practices": [
+      "Setting up a Haft-sin table",
+      "Spring cleaning (khaneh takani)",
+      "Visiting family and friends",
+      "Public celebrations with music and dance",
+      "Charity and generosity"
+    ],
+    "gallery_images": [
+      "/Images/nowruz1.jpeg",
+      "/Images/nowruz2.jpeg",
+      "/Images/nowruz3.jpeg",
+      "/Images/nowruz4.jpeg"
+    ]
+  },
+  {
+    "id": "advent",
+    "name": "Advent",
+    "short_description": "A Christian season of preparation for the celebration of the birth of Jesus at Christmas.",
+    "image_url": "/Images/advent1.jpeg",
+    "details": {
+      "celebrated_by": "Christian communities worldwide",
+      "location": "Worldwide",
+      "date": "Four weeks before Christmas",
+      "duration": "Approximately 4 weeks",
+      "participants": "2.5 billion+",
+      "organizer": "Christian churches",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A period of waiting, anticipation, and hope for the coming of Christ.",
+      "historic_importance": "Advent is the beginning of the Christian liturgical year. It is a time for Christians to prepare for Christmas by reflecting on the birth of Jesus and his second coming. It is a time for solemn reflection and joyous expectation.",
+      "cultural_significance": "A season of preparation for Christmas"
+    },
+    "traditions_and_practices": [
+      "Lighting the Advent wreath",
+      "Daily devotions",
+      "Advent calendars",
+      "Fasting and prayer",
+      "Singing carols"
+    ],
+    "gallery_images": [
+      "/Images/advent1.jpeg",
+      "/Images/advent2.jpeg",
+      "/Images/advent3.jpeg",
+      "/Images/advent4.jpeg"
+    ]
+  },
+  {
+    "id": "pentecost",
+    "name": "Pentecost",
+    "short_description": "A Christian festival commemorating the descent of the Holy Spirit upon the Apostles.",
+    "image_url": "/Images/pentecost1.jpeg",
+    "details": {
+      "celebrated_by": "Christian communities worldwide",
+      "location": "Worldwide",
+      "date": "50 days after Easter Sunday",
+      "duration": "1 day",
+      "participants": "2.5 billion+",
+      "organizer": "Christian churches",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A celebration of the birth of the Christian church and the empowerment of believers.",
+      "historic_importance": "Pentecost marks the day the Holy Spirit descended on the Apostles, giving them the ability to speak in different languages to spread the Gospel. It is considered the 'birthday' of the Christian church.",
+      "cultural_significance": "Celebrates the birth of the Christian church"
+    },
+    "traditions_and_practices": [
+      "Wearing red clothing",
+      "Reading from the Book of Acts",
+      "Special church services",
+      "Singing hymns",
+      "Parades and processions"
+    ],
+    "gallery_images": [
+      "/Images/pentecost1.jpeg",
+      "/Images/pentecost2.jpeg",
+      "/Images/pentecost3.jpeg",
+      "/Images/pentecost4.jpeg"
+    ]
+  },
+  {
+    "id": "maha-chaturthi",
+    "name": "Ganesh Chaturthi",
+    "short_description": "A Hindu festival celebrating the birth of the elephant-headed god Ganesha.",
+    "image_url": "/Images/ganesh1.jpeg",
+    "details": {
+      "celebrated_by": "Hindu communities worldwide",
+      "location": "India, Nepal, and other Hindu communities",
+      "date": "August or September",
+      "duration": "10 days",
+      "participants": "1 billion+",
+      "organizer": "Local Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A vibrant and joyous festival dedicated to Ganesha, the remover of obstacles and god of new beginnings.",
+      "historic_importance": "Ganesh Chaturthi celebrates the birthday of Lord Ganesha, a beloved deity in Hinduism. The festival is a time to worship Ganesha and seek his blessings for prosperity and success in new ventures.",
+      "cultural_significance": "Celebrates the birth of Lord Ganesha"
+    },
+    "traditions_and_practices": [
+      "Installing a clay idol of Ganesha",
+      "Offering prayers and sweets (modak)",
+      "Singing bhajans and aarti",
+      "Public processions",
+      "Immersion of the idol in water"
+    ],
+    "gallery_images": [
+      "/Images/ganesh1.jpeg",
+      "/Images/ganesh2.jpeg",
+      "/Images/ganesh3.jpeg",
+      "/Images/ganesh4.jpeg"
+    ]
+  },
+  {
+    "id": "onam",
+    "name": "Onam",
+    "short_description": "A Hindu harvest festival celebrated in the state of Kerala, India.",
+    "image_url": "/Images/onam1.jpeg",
+    "details": {
+      "celebrated_by": "Kerala Hindu community",
+      "location": "Kerala, India",
+      "date": "August or September",
+      "duration": "10 days",
+      "participants": "35 million+",
+      "organizer": "Local Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A festival celebrating the harvest and the mythical homecoming of the legendary King Mahabali.",
+      "historic_importance": "Onam is a harvest festival that also commemorates the visit of King Mahabali, a mythical demon king who was banished to the underworld but is allowed to visit his kingdom once a year. The festival is a reminder of his prosperous reign.",
+      "cultural_significance": "Celebrates the harvest and King Mahabali's return"
+    },
+    "traditions_and_practices": [
+      "Making flower carpets (Pookalam)",
+      "Feasting (Onam Sadya)",
+      "Vallam Kali (snake boat race)",
+      "Traditional dances (Thiruvathira Kali)",
+      "Decorating homes"
+    ],
+    "gallery_images": [
+      "/Images/onam1.jpeg",
+      "/Images/onam2.jpeg",
+      "/Images/onam3.jpeg",
+      "/Images/onam4.jpeg"
+    ]
+  },
+  {
+    "id": "ridvan",
+    "name": "Ridván",
+    "short_description": "A Baha'i festival celebrating the declaration of Baháʼu'lláh as the messenger of God.",
+    "image_url": "/Images/ridvan1.jpeg",
+    "details": {
+      "celebrated_by": "Baha'i communities worldwide",
+      "location": "Worldwide",
+      "date": "April 21 to May 2",
+      "duration": "12 days",
+      "participants": "8 million+",
+      "organizer": "Baha'i Local and National Assemblies",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "The 'Most Great Festival' and the holiest of Baha'i festivals, filled with joyous celebration and prayer.",
+      "historic_importance": "Ridván commemorates the 12 days Baháʼu'lláh spent in the Garden of Ridván in Baghdad, where he declared his mission as the messenger of God. It marks the beginning of a new era of spiritual awakening and universal peace.",
+      "cultural_significance": "Commemorates the declaration of Baháʼu'lláh"
+    },
+    "traditions_and_practices": [
+      "Readings from the Baha'i scriptures",
+      "Joyful gatherings",
+      "Feasting",
+      "Electing Local Spiritual Assemblies"
+    ],
+    "gallery_images": [
+      "/Images/ridvan1.jpeg",
+      "/Images/ridvan2.jpeg",
+      "/Images/ridvan3.jpeg",
+      "/Images/ridvan4.jpeg"
+    ]
+  },
+  {
+    "id": "ayyam-i-ha",
+    "name": "Ayyám-i-Há",
+    "short_description": "A Baha'i festival dedicated to hospitality and charity before the annual fast.",
+    "image_url": "/Images/ayyam1.jpeg",
+    "details": {
+      "celebrated_by": "Baha'i communities worldwide",
+      "location": "Worldwide",
+      "date": "February 26 to March 1",
+      "duration": "4-5 days",
+      "participants": "8 million+",
+      "organizer": "Baha'i Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A time for Baha'is to celebrate and prepare for the annual Nineteen Day Fast.",
+      "historic_importance": "Ayyám-i-Há, or the 'Intercalary Days,' were instituted by the Báb, the forerunner of Baháʼu'lláh. They are a time for gift-giving, hospitality, and charity, and serve to balance the Baha'i calendar before the start of the fasting month.",
+      "cultural_significance": "A time for gift-giving and charity"
+    },
+    "traditions_and_practices": [
+      "Exchanging gifts",
+      "Giving to the poor and needy",
+      "Visiting friends and family",
+      "Feasting and social gatherings"
+    ],
+    "gallery_images": [
+      "/Images/ayyam1.jpeg",
+      "/Images/ayyam2.jpeg",
+      "/Images/ayyam3.jpeg",
+      "/Images/ayyam4.jpeg"
+    ]
+  },
+  {
+    "id": "losar",
+    "name": "Losar",
+    "short_description": "The Tibetan Buddhist New Year festival.",
+    "image_url": "/Images/losar1.jpeg",
+    "details": {
+      "celebrated_by": "Tibetan Buddhist communities",
+      "location": "Tibet, Bhutan, Nepal, and other Himalayan regions",
+      "date": "February or March",
+      "duration": "15 days (main celebrations for 3 days)",
+      "participants": "10 million+",
+      "organizer": "Buddhist Monasteries and communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A festival of prayer, blessings, and traditional rituals to usher in a new year of good fortune.",
+      "historic_importance": "Losar dates back to a pre-Buddhist tradition in Tibet. It is a time to cleanse bad karma from the previous year and set intentions for the new one. The festival is deeply spiritual and filled with symbolic rituals.",
+      "cultural_significance": "Tibetan New Year"
+    },
+    "traditions_and_practices": [
+      "Cleaning homes",
+      "Decorating with prayer flags",
+      "Monastery visits and prayers",
+      "Exchanging gifts",
+      "Traditional foods (Gutu and Kapse)"
+    ],
+    "gallery_images": [
+      "/Images/losar1.jpeg",
+      "/Images/losar2.jpeg",
+      "/Images/losar3.jpeg",
+      "/Images/losar4.jpeg"
+    ]
+  },
+  {
+    "id": "navratri",
+    "name": "Navratri",
+    "short_description": "A Hindu festival spanning nine nights, dedicated to the goddess Durga.",
+    "image_url": "/Images/navratri1.jpeg",
+    "details": {
+      "celebrated_by": "Hindu communities worldwide",
+      "location": "India, Nepal, and other Hindu communities",
+      "date": "September or October",
+      "duration": "9 nights",
+      "participants": "1 billion+",
+      "organizer": "Local Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A celebration of the nine forms of the goddess Durga, symbolizing the triumph of feminine power.",
+      "historic_importance": "Navratri celebrates the victory of the goddess Durga over the demon Mahishasura. Each of the nine nights is dedicated to a different form of the goddess, representing various aspects of her power and divinity.",
+      "cultural_significance": "Honors the goddess Durga"
+    },
+    "traditions_and_practices": [
+      "Fasting",
+      "Performing Garba and Dandiya dances",
+      "Worshipping the nine forms of Durga",
+      "Feasting",
+      "Decorating with lights and colors"
+    ],
+    "gallery_images": [
+      "/Images/navratri1.jpeg",
+      "/Images/navratri2.jpeg",
+      "/Images/navratri3.jpeg",
+      "/Images/navratri4.jpeg"
+    ]
+  },
+  {
+    "id": "vaisakhi",
+    "name": "Vaisakhi",
+    "short_description": "A Sikh festival and harvest festival celebrated in Punjab, India.",
+    "image_url": "/Images/vaisakhi1.jpeg",
+    "details": {
+      "celebrated_by": "Sikh and Hindu communities",
+      "location": "Punjab, India",
+      "date": "April 13 or 14",
+      "duration": "1 day",
+      "participants": "25 million+",
+      "organizer": "Gurudwaras and local communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A festival that commemorates the formation of the Khalsa by Guru Gobind Singh.",
+      "historic_importance": "Vaisakhi is a significant day for Sikhs, as it marks the day in 1699 when Guru Gobind Singh established the Khalsa, the collective body of all initiated Sikhs. It is also a traditional harvest festival in Punjab, celebrating the end of the harvest season.",
+      "cultural_significance": "Commemorates the formation of the Khalsa"
+    },
+    "traditions_and_practices": [
+      "Nagar Kirtan (processions)",
+      "Attending Gurudwara services",
+      "Reading the Guru Granth Sahib",
+      "Feasting and community meals (Langar)"
+    ],
+    "gallery_images": [
+      "/Images/vaisakhi1.jpeg",
+      "/Images/vaisakhi2.jpeg",
+      "/Images/vaisakhi3.jpeg",
+      "/Images/vaisakhi4.jpeg"
+    ]
+  },
+  {
+    "id": "ashura",
+    "name": "Ashura",
+    "short_description": "An Islamic holy day of remembrance and mourning.",
+    "image_url": "/Images/ashura1.jpeg",
+    "details": {
+      "celebrated_by": "Muslim communities worldwide",
+      "location": "Worldwide",
+      "date": "10th of Muharram",
+      "duration": "1 day",
+      "participants": "1.8 billion+",
+      "organizer": "Islamic Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A day to commemorate the martyrdom of Husayn ibn Ali, the grandson of the Prophet Muhammad.",
+      "historic_importance": "For Shia Muslims, Ashura is a day of deep mourning for the martyrdom of Husayn ibn Ali at the Battle of Karbala. For Sunni Muslims, it is a day of optional fasting to commemorate the day the Israelites were freed from slavery in Egypt.",
+      "cultural_significance": "A day of mourning and fasting"
+    },
+    "traditions_and_practices": [
+      "Public mourning rituals (for Shia Muslims)",
+      "Fasting (for Sunni Muslims)",
+      "Reciting elegies",
+      "Community gatherings and speeches",
+      "Donating blood"
+    ],
+    "gallery_images": [
+      "/Images/ashura1.jpeg",
+      "/Images/ashura2.jpeg",
+      "/Images/ashura3.jpeg",
+      "/Images/ashura4.jpeg"
+    ]
+  },
+  {
+    "id": "yule",
+    "name": "Yule",
+    "short_description": "A pagan festival celebrating the winter solstice and the rebirth of the sun.",
+    "image_url": "/Images/yule1.jpeg",
+    "details": {
+      "celebrated_by": "Pagan and Neopagan communities",
+      "location": "Worldwide",
+      "date": "Winter Solstice (December 21 or 22)",
+      "duration": "12 days",
+      "participants": "Thousands+",
+      "organizer": "Local Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A festival marking the longest night of the year and the return of light.",
+      "historic_importance": "Yule is an ancient Germanic festival with pre-Christian roots. It celebrates the end of the darkest period of the year and the promise of the sun's return. Many modern Christmas traditions, such as the Yule log and Christmas tree, originated from this festival.",
+      "cultural_significance": "Celebrates the winter solstice and the return of light"
+    },
+    "traditions_and_practices": [
+      "Burning the Yule log",
+      "Decorating evergreen trees",
+      "Feasting",
+      "Singing carols",
+      "Exchanging gifts"
+    ],
+    "gallery_images": [
+      "/Images/yule1.jpeg",
+      "/Images/yule2.jpeg",
+      "/Images/yule3.jpeg",
+      "/Images/yule4.jpeg"
+    ]
+  },
+  {
+    "id": "samhain",
+    "name": "Samhain",
+    "short_description": "A Gaelic pagan festival marking the end of the harvest season.",
+    "image_url": "/Images/samhain1.jpeg",
+    "details": {
+      "celebrated_by": "Pagan and Neopagan communities",
+      "location": "Ireland, Scotland, and other Celtic regions",
+      "date": "October 31st - November 1st",
+      "duration": "1 day",
+      "participants": "Thousands+",
+      "organizer": "Local Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A festival believed to be a time when the veil between the living and the dead is at its thinnest.",
+      "historic_importance": "Samhain is an ancient Celtic festival that marks the end of the harvest and the beginning of winter. It is believed to be a time when the spirits of the dead can more easily cross into the world of the living. Many Halloween traditions are derived from Samhain.",
+      "cultural_significance": "Marks the end of the harvest and the beginning of winter"
+    },
+    "traditions_and_practices": [
+      "Bonfires",
+      "Divination rituals",
+      "Feasting with ancestors",
+      "Wearing costumes",
+      "Telling ghost stories"
+    ],
+    "gallery_images": [
+      "/Images/samhain1.jpeg",
+      "/Images/samhain2.jpeg",
+      "/Images/samhain3.jpeg",
+      "/Images/samhain4.jpeg"
+    ]
+  },
+  {
+    "id": "beltane",
+    "name": "Beltane",
+    "short_description": "A Gaelic pagan festival celebrating the return of summer.",
+    "image_url": "/Images/beltane1.jpeg",
+    "details": {
+      "celebrated_by": "Pagan and Neopagan communities",
+      "location": "Ireland, Scotland, and other Celtic regions",
+      "date": "May 1st",
+      "duration": "1 day",
+      "participants": "Thousands+",
+      "organizer": "Local Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A festival of fertility, life, and the vibrant energy of the natural world.",
+      "historic_importance": "Beltane is an ancient Celtic festival that marks the halfway point between the spring equinox and the summer solstice. It is a celebration of the fertility of the land and the return of warm weather, and is a time for rites to protect crops and livestock.",
+      "cultural_significance": "Celebrates fertility and the return of summer"
+    },
+    "traditions_and_practices": [
+      "Bonfires",
+      "Dancing around a Maypole",
+      "Feasting",
+      "Processions",
+      "Wreaths and floral decorations"
+    ],
+    "gallery_images": [
+      "/Images/beltane1.jpeg",
+      "/Images/beltane2.jpeg",
+      "/Images/beltane3.jpeg",
+      "/Images/beltane4.jpeg"
+    ]
+  },
+  {
+    "id": "dharmajayo",
+    "name": "Dharma Jayo (Asalha Puja)",
+    "short_description": "A Buddhist festival commemorating the Buddha's first sermon.",
+    "image_url": "/Images/dharma1.jpeg",
+    "details": {
+      "celebrated_by": "Theravada Buddhist communities",
+      "location": "Thailand, Cambodia, Sri Lanka, etc.",
+      "date": "Full moon day of the month of Ashadha (July)",
+      "duration": "1 day",
+      "participants": "Millions+",
+      "organizer": "Buddhist Temples and communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A day for devotees to reflect on the Buddha's first teachings and the formation of the Buddhist community.",
+      "historic_importance": "Dharma Jayo, or Asalha Puja, commemorates the Buddha's first sermon to his five disciples after attaining enlightenment. The sermon, known as the 'Dhammacakkappavattana Sutta,' laid out the Four Noble Truths and set the 'Wheel of Dharma' in motion.",
+      "cultural_significance": "Commemorates the Buddha's first sermon"
+    },
+    "traditions_and_practices": [
+      "Visiting temples",
+      "Offering food and alms to monks",
+      "Chanting and meditation",
+      "Listening to sermons on the Dharma",
+      "Candlelight processions"
+    ],
+    "gallery_images": [
+      "/Images/dharma1.jpeg",
+      "/Images/dharma2.jpeg",
+      "/Images/dharma3.jpeg",
+      "/Images/dharma4.jpeg"
+    ]
+  },
+  {
+    "id": "raksha-bandhan",
+    "name": "Raksha Bandhan",
+    "short_description": "A Hindu festival celebrating the bond between brothers and sisters.",
+    "image_url": "/Images/raksha1.jpeg",
+    "details": {
+      "celebrated_by": "Hindu communities worldwide",
+      "location": "India, Nepal, and other Hindu communities",
+      "date": "Full moon day of the month of Shravana (August)",
+      "duration": "1 day",
+      "participants": "1 billion+",
+      "organizer": "Families",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "Sisters tie a sacred thread (rakhi) on their brothers' wrists, symbolizing love and protection.",
+      "historic_importance": "This festival celebrates the sibling bond. The rakhi signifies a sister's love and prayers for her brother's well-being, and the brother's lifelong vow to protect her. It has roots in various historical and mythological accounts in Hindu scriptures.",
+      "cultural_significance": "Celebrates the protective bond of siblings"
+    },
+    "traditions_and_practices": [
+      "Tying the rakhi",
+      "Exchanging gifts",
+      "Applying a tilak on the forehead",
+      "Family feasting",
+      "Reciting prayers"
+    ],
+    "gallery_images": [
+      "/Images/raksha1.jpeg",
+      "/Images/raksha2.jpeg",
+      "/Images/raksha3.jpeg",
+      "/Images/raksha4.jpeg"
+    ]
+  },
+  {
+    "id": "janmashtami",
+    "name": "Janmashtami",
+    "short_description": "A Hindu festival celebrating the birth of Lord Krishna.",
+    "image_url": "/Images/Janmashtami1.jpeg",
+    "details": {
+      "celebrated_by": "Hindu communities worldwide",
+      "location": "India, Nepal, and other Hindu communities",
+      "date": "Eighth day of the dark fortnight of the month of Bhadrapada (August or September)",
+      "duration": "1-2 days",
+      "participants": "1 billion+",
+      "organizer": "Temples and Local Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A festival of devotion, fasting, and celebration marking the birth of Krishna, the eighth avatar of Vishnu.",
+      "historic_importance": "Janmashtami celebrates the birth of Lord Krishna in Mathura. The festival involves dramatic enactments of Krishna's life, devotional singing, and fasting until midnight, the time of his birth, symbolizing the victory of good over evil.",
+      "cultural_significance": "Honors the birth of Lord Krishna"
+    },
+    "traditions_and_practices": [
+      "Fasting",
+      "Night vigils and devotional songs (bhajans)",
+      "Dahi Handi (human pyramid to break a pot of curd)",
+      "Decorating temples and homes",
+      "Rasa Lila (dramatic enactments)"
+    ],
+    "gallery_images": [
+      "/Images/Janmashtami1.jpeg",
+      "/Images/Janmashtami2.jpeg",
+      "/Images/Janmashtami3.jpeg",
+      "/Images/Janmashtami4.jpeg"
+    ]
+  },
+  {
+    "id": "sukkot",
+    "name": "Sukkot",
+    "short_description": "A Jewish harvest festival also commemorating the 40 years of wandering in the desert.",
+    "image_url": "/Images/sukkot1.jpeg",
+    "details": {
+      "celebrated_by": "Jewish communities worldwide",
+      "location": "Worldwide",
+      "date": "15th day of Tishrei (September or October)",
+      "duration": "7 days",
+      "participants": "15 million+",
+      "organizer": "Jewish Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "Known as the 'Feast of Tabernacles,' it involves building and dwelling in a temporary hut called a sukkah.",
+      "historic_importance": "Sukkot commemorates the period when the Israelites lived in temporary shelters in the wilderness after their exodus from Egypt. It is also a harvest festival, giving thanks for the autumn harvest.",
+      "cultural_significance": "Celebrates harvest and remembers the Exodus"
+    },
+    "traditions_and_practices": [
+      "Building and eating in a sukkah",
+      "Waving the Four Species (Lulav and Etrog)",
+      "Special prayers and synagogue services",
+      "Hosting guests",
+      "Feasting"
+    ],
+    "gallery_images": [
+      "/Images/sukkot1.jpeg",
+      "/Images/sukkot2.jpeg",
+      "/Images/sukkot3.jpeg",
+      "/Images/sukkot4.jpeg"
+    ]
+  },
+  {
+    "id": "dia-de-los-muertos",
+    "name": "Día de los Muertos (Day of the Dead)",
+    "short_description": "A Mexican festival celebrating and remembering deceased friends and family.",
+    "image_url": "/Images/muertos1.jpeg",
+    "details": {
+      "celebrated_by": "Mexican and Latin American communities",
+      "location": "Mexico and diaspora",
+      "date": "November 1-2",
+      "duration": "2 days",
+      "participants": "100 million+",
+      "organizer": "Families and Local Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A joyous and colorful celebration of life and death, where the spirits of the dead are believed to return to visit their families.",
+      "historic_importance": "This holiday blends indigenous Aztec rituals with Catholicism, brought to the region by Spanish conquistadores. It is a time not for mourning, but for celebrating the lives of the deceased and keeping their memories alive.",
+      "cultural_significance": "Honors deceased loved ones"
+    },
+    "traditions_and_practices": [
+      "Building private altars (ofrendas)",
+      "Decorating with marigolds and sugar skulls",
+      "Leaving favorite foods and beverages for the dead",
+      "Parades and costumes (La Catrina)",
+      "Visiting gravesites"
+    ],
+    "gallery_images": [
+      "/Images/muertos1.jpeg",
+      "/Images/muertos2.jpeg",
+      "/Images/muertos3.jpeg",
+      "/Images/muertos4.jpeg"
+    ]
+  },
+  {
+    "id": "thanksgiving",
+    "name": "Thanksgiving",
+    "short_description": "A national holiday in the United States and Canada celebrating the harvest and other blessings of the past year.",
+    "image_url": "/Images/thanksgiving1.jpeg",
+    "details": {
+      "celebrated_by": "Americans and Canadians",
+      "location": "United States, Canada",
+      "date": "Fourth Thursday in November (US), Second Monday in October (Canada)",
+      "duration": "1 day",
+      "participants": "350 million+",
+      "organizer": "Families",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A day for family gatherings and a large meal, focused on gratitude.",
+      "historic_importance": "In the US, it's commonly traced to the 1621 harvest feast shared by the Pilgrims and the Wampanoag people. It became a national holiday to promote unity and gratitude.",
+      "cultural_significance": "A celebration of harvest and gratitude"
+    },
+    "traditions_and_practices": [
+      "Family feasts (turkey, stuffing, pumpkin pie)",
+      "Watching American football",
+      "Parades (e.g., Macy's Thanksgiving Day Parade)",
+      "Expressing gratitude",
+      "Charity work"
+    ],
+    "gallery_images": [
+      "/Images/thanksgiving1.jpeg",
+      "/Images/thanksgiving2.jpeg",
+      "/Images/thanksgiving3.jpeg",
+      "/Images/thanksgiving4.jpeg"
+    ]
+  },
+  {
+    "id": "oktoberfest",
+    "name": "Oktoberfest",
+    "short_description": "The world's largest beer festival and traveling funfair held annually in Munich, Bavaria, Germany.",
+    "image_url": "/Images/Oktoberfest1.jpeg",
+    "details": {
+      "celebrated_by": "Germans and international tourists",
+      "location": "Munich, Germany, and worldwide",
+      "date": "Late September to the first Sunday in October",
+      "duration": "16-18 days",
+      "participants": "6 million+ (in Munich)",
+      "organizer": "City of Munich",
+      "is_free": false
+    },
+    "description": {
+      "full_description": "A major part of Bavarian culture, it's a celebration of beer, food, and traditional Bavarian music and attire.",
+      "historic_importance": "The festival originated on October 12, 1810, in celebration of the marriage of Crown Prince Ludwig to Princess Therese of Saxe-Hildburghausen. The public festivities were so popular they were repeated annually.",
+      "cultural_significance": "Celebration of Bavarian culture and beer"
+    },
+    "traditions_and_practices": [
+      "Drinking beer from large steins",
+      "Wearing traditional attire (Dirndl and Lederhosen)",
+      "Parades",
+      "Amusement park rides",
+      "Eating traditional foods (pretzels, sausages)"
+    ],
+    "gallery_images": [
+      "/Images/Oktoberfest1.jpeg",
+      "/Images/Oktoberfest2.jpeg",
+      "/Images/Oktoberfest3.jpeg",
+      "/Images/Oktoberfest4.jpeg"
+    ]
+  },
+  {
+    "id": "epiphany",
+    "name": "Epiphany",
+    "short_description": "A Christian feast day that celebrates the revelation of God incarnate as Jesus Christ.",
+    "image_url": "/Images/epiphany1.jpeg",
+    "details": {
+      "celebrated_by": "Christian communities worldwide",
+      "location": "Worldwide",
+      "date": "January 6th",
+      "duration": "1 day",
+      "participants": "2.5 billion+",
+      "organizer": "Christian churches",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "In Western Christianity, it commemorates the visit of the Magi to the Christ Child. In Eastern Christianity, it commemorates the baptism of Jesus.",
+      "historic_importance": "Also known as Three Kings' Day, it marks the end of the Twelve Days of Christmas. It is a significant feast day, especially in European and Latin American cultures, celebrating the manifestation of Christ to the Gentiles.",
+      "cultural_significance": "Celebrates the manifestation of Jesus to the world"
+    },
+    "traditions_and_practices": [
+      "Attending church services",
+      "Eating King Cake (Rosca de Reyes)",
+      "Gift-giving",
+      "House blessings",
+      "Parades of the Three Kings"
+    ],
+    "gallery_images": [
+      "/Images/epiphany1.jpeg",
+      "/Images/epiphany2.jpeg",
+      "/Images/epiphany3.jpeg",
+      "/Images/epiphany4.jpeg"
+    ]
+  },
+  {
+    "id": "st-patricks-day",
+    "name": "St. Patrick's Day",
+    "short_description": "A cultural and religious celebration held on the traditional death date of Saint Patrick, the foremost patron saint of Ireland.",
+    "image_url": "/Images/patrick1.jpeg",
+    "details": {
+      "celebrated_by": "Irish people and diaspora",
+      "location": "Ireland and worldwide",
+      "date": "March 17th",
+      "duration": "1 day",
+      "participants": "70 million+",
+      "organizer": "Local Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A celebration of Irish heritage and culture with parades, special foods, music, dancing, and a lot of green.",
+      "historic_importance": "Originally a religious feast day for the patron saint of Ireland, it has evolved into a global celebration of Irish culture. Saint Patrick is credited with bringing Christianity to Ireland in the 5th century.",
+      "cultural_significance": "Celebrates Irish culture and heritage"
+    },
+    "traditions_and_practices": [
+      "Parades",
+      "Wearing green attire",
+      "Attending church services",
+      "Public festivals (céilithe)",
+      "Drinking Irish beer and whiskey"
+    ],
+    "gallery_images": [
+      "/Images/patrick1.jpeg",
+      "/Images/patrick2.jpeg",
+      "/Images/patrick3.jpeg",
+      "/Images/patrick4.jpeg"
+    ]
+  },
+  {
+    "id": "lantern-festival",
+    "name": "Lantern Festival",
+    "short_description": "A Chinese festival celebrated on the fifteenth day of the first month in the lunisolar Chinese calendar.",
+    "image_url": "/Images/lantern1.jpeg",
+    "details": {
+      "celebrated_by": "Chinese communities worldwide",
+      "location": "China and East Asian diaspora",
+      "date": "15th day of the first lunar month",
+      "duration": "1 day",
+      "participants": "1.5 billion+",
+      "organizer": "Local Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "Marks the final day of the traditional Chinese New Year celebrations, with a focus on lighting and viewing lanterns.",
+      "historic_importance": "Dating back over 2000 years, the festival has various origin stories, including celebrating the decline of winter's darkness. It became a festival of peace, reconciliation, and letting go of the past year.",
+      "cultural_significance": "Marks the end of Chinese New Year"
+    },
+    "traditions_and_practices": [
+      "Lighting and watching lanterns",
+      "Solving riddles written on lanterns",
+      "Eating tangyuan (sweet rice balls)",
+      "Lion and dragon dances",
+      "Fireworks"
+    ],
+    "gallery_images": [
+      "/Images/lantern1.jpeg",
+      "/Images/lantern2.jpeg",
+      "/Images/lantern3.jpeg",
+      "/Images/lantern4.jpeg"
+    ]
+  },
+  {
+    "id": "shogatsu",
+    "name": "Shōgatsu (Japanese New Year)",
+    "short_description": "The most important festival in Japan, celebrating the new year.",
+    "image_url": "/Images/shogatsu1.jpeg",
+    "details": {
+      "celebrated_by": "Japanese people",
+      "location": "Japan",
+      "date": "January 1-3",
+      "duration": "3 days",
+      "participants": "125 million+",
+      "organizer": "Families and Shrines",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A time for family gatherings, special foods, and visiting shrines to pray for good fortune in the coming year.",
+      "historic_importance": "While originally based on the lunar calendar, Japan adopted the Gregorian calendar in 1873. It is a time for forgetting the troubles of the past year and starting fresh, with many traditions aimed at ensuring good luck and prosperity.",
+      "cultural_significance": "Celebrates the Japanese New Year"
+    },
+    "traditions_and_practices": [
+      "First shrine visit of the year (Hatsumōde)",
+      "Eating special New Year's dishes (Osechi-ryōri)",
+      "Sending New Year's cards (Nengajō)",
+      "Giving money to children (Otoshidama)",
+      "Watching the first sunrise (Hatsuhinode)"
+    ],
+    "gallery_images": [
+      "/Images/shogatsu1.jpeg",
+      "/Images/shogatsu2.jpeg",
+      "/Images/shogatsu3.jpeg",
+      "/Images/shogatsu4.jpeg"
+    ]
+  },
+  {
+    "id": "imbolc",
+    "name": "Imbolc",
+    "short_description": "A Gaelic pagan festival marking the beginning of spring.",
+    "image_url": "/Images/imbolc1.jpeg",
+    "details": {
+      "celebrated_by": "Pagan and Neopagan communities",
+      "location": "Ireland, Scotland, and other Celtic regions",
+      "date": "February 1st",
+      "duration": "1 day",
+      "participants": "Thousands+",
+      "organizer": "Local Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A festival halfway between the winter solstice and the spring equinox, associated with the goddess Brigid.",
+      "historic_importance": "Imbolc is a festival of hearth and home, and a celebration of the lengthening days and the early signs of spring. It's traditionally a time for spring cleaning and lighting fires to celebrate the increasing power of the Sun.",
+      "cultural_significance": "Celebrates the beginning of spring and purification"
+    },
+    "traditions_and_practices": [
+      "Lighting candles and bonfires",
+      "Making Brigid's crosses",
+      "Spring cleaning",
+      "Visiting holy wells",
+      "Feasting"
+    ],
+    "gallery_images": [
+      "/Images/imbolc1.jpeg",
+      "/Images/imbolc2.jpeg",
+      "/Images/imbolc3.jpeg",
+      "/Images/imbolc4.jpeg"
+    ]
+  },
+  {
+    "id": "litha",
+    "name": "Litha (Summer Solstice)",
+    "short_description": "A pagan festival celebrating the summer solstice, the longest day of the year.",
+    "image_url": "/Images/litha1.jpeg",
+    "details": {
+      "celebrated_by": "Pagan and Neopagan communities",
+      "location": "Worldwide",
+      "date": "Summer Solstice (June 20 or 21)",
+      "duration": "1 day",
+      "participants": "Thousands+",
+      "organizer": "Local Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A celebration of the sun's peak power and the abundance of summer.",
+      "historic_importance": "Litha has been celebrated by cultures for thousands of years, as evidenced by ancient monuments like Stonehenge, which aligns with the solstice sunrise. It is a time of joy, celebrating the warmth, growth, and light of the sun.",
+      "cultural_significance": "Celebrates the peak of summer and the sun"
+    },
+    "traditions_and_practices": [
+      "Watching the sunrise",
+      "Bonfires",
+      "Gathering herbs for magical and medicinal use",
+      "Feasting and dancing",
+      "Making flower wreaths"
+    ],
+    "gallery_images": [
+      "/Images/litha1.jpeg",
+      "/Images/litha2.jpeg",
+      "/Images/litha3.jpeg",
+      "/Images/litha4.jpeg"
+    ]
+  },
+  {
+    "id": "mabon",
+    "name": "Mabon (Autumn Equinox)",
+    "short_description": "A pagan festival celebrating the autumn equinox, a time of balance between day and night.",
+    "image_url": "/Images/mabon1.jpeg",
+    "details": {
+      "celebrated_by": "Pagan and Neopagan communities",
+      "location": "Worldwide",
+      "date": "Autumn Equinox (September 22 or 23)",
+      "duration": "1 day",
+      "participants": "Thousands+",
+      "organizer": "Local Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A harvest festival to give thanks for the abundance of the land and to prepare for the coming winter.",
+      "historic_importance": "Mabon is the second of three harvest festivals in the Wheel of the Year. It is a time of thanksgiving for the fruits of the earth and a recognition of the need to share them to ensure the blessings of the community during the winter months.",
+      "cultural_significance": "Celebrates the harvest and balance"
+    },
+    "traditions_and_practices": [
+      "Harvesting and feasting on autumn foods",
+      "Decorating altars with apples, gourds, and corn",
+      "Giving thanks for the harvest",
+      "Walking in nature",
+      "Making wine or cider"
+    ],
+    "gallery_images": [
+      "/Images/mabon1.jpeg",
+      "/Images/mabon2.jpeg",
+      "/Images/mabon3.jpeg",
+      "/Images/mabon4.jpeg"
+    ]
+  },
+  {
+    "id": "thingyan",
+    "name": "Thingyan",
+    "short_description": "The Burmese New Year festival, known for its extensive water-throwing festivities.",
+    "image_url": "/Images/thingyan1.jpeg",
+    "details": {
+      "celebrated_by": "Burmese (Myanmar) people",
+      "location": "Myanmar",
+      "date": "Mid-April",
+      "duration": "4-5 days",
+      "participants": "55 million+",
+      "organizer": "Local Communities",
+      "is_free": true
+    },
+    "description": {
+      "full_description": "A Buddhist festival that combines joyous water-throwing with more solemn, meritorious activities.",
+      "historic_importance": "Similar to Songkran in Thailand, Thingyan is a festival of cleansing. The water symbolizes the washing away of sins and bad luck from the previous year. It's also a time for observing Buddhist precepts, visiting elders, and performing good deeds.",
+      "cultural_significance": "Celebrates the Burmese New Year"
+    },
+    "traditions_and_practices": [
+      "Throwing water with buckets, hoses, and water guns",
+      "Visiting pagodas and monasteries",
+      "Offering food to monks",
+      "Paying respect to elders",
+      "Releasing fish and cattle"
+    ],
+    "gallery_images": [
+      "/Images/thingyan1.jpeg",
+      "/Images/thingyan2.jpeg",
+      "/Images/thingyan3.jpeg",
+      "/Images/thingyan4.jpeg"
+    ]
+  }
+]
