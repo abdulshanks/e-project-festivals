@@ -32,7 +32,6 @@
       "/Images/eid3.jpeg",
       "/Images/eid4.jpeg",
       "/Images/eid5.jpeg"
-     
     ]
   },
   {
@@ -131,7 +130,7 @@
       "/Images/holi1.png",
       "/Images/holi2.jpeg",
       "/Images/holi3.jpeg",
-       "/Images/christmas3.jpeg"
+      "/Images/christmas3.jpeg"
     ]
   },
   {
@@ -1712,139 +1711,5 @@
       "/Images/thingyan3.jpeg",
       "/Images/thingyan4.jpeg"
     ]
-  },
-
-  [
-  {
-    "id": "islam",
-    "name": "Eid al-Fitr",
-    "short_description": "Explore the rich history, traditions, and cultural significance of Eid al-Fitr celebrated around the world by Muslims.",
-    "image_url": "Images/eid1.jpeg",
-    "details": {
-      "celebrated_by": "Muslim communities worldwide",
-      "location": "Worldwide",
-      "date": "1st shawwal",
-      "duration": "3 days",
-      "participants": "1.8 billion+",
-      "organizer": "Islamic Communities",
-      "is_free": true
-    },
-    "description": {
-      "full_description": "Festival marking the end of Ramadan, the holy month of fasting in Islam.",
-      "historic_importance": "Eid al-Fitr marks the end of Ramadan, the holy month of fasting. It celebrates the spiritual achievement of self-discipline, empathy for the less fortunate, and strengthening community bonds through shared worship and charity. The festival emphasizes gratitude, forgiveness, and community unity.",
-      "cultural_significance": "Marks the end of Ramadan fasting"
-    },
-    "traditions_and_practices": [
-      "Special prayers",
-      "Feasting",
-      "Charity (Zakat)",
-      "New clothes",
-      "Family visits",
-      "Sweet exchanges"
-    ],
-
-
-
-
-
-    
-    "gallery_images": [
-      "/Images/eid1.jpeg",
-      "/Images/eid2.jpeg",
-      "/Images/eid3.jpeg",
-      "/Images/eid4.jpeg",
-      "/Images/eid5.jpeg",
-      "/Images/eid6.jpeg"
-    ]
-  },
-  
-  {
-    "id": "durbar",
-    "name": "Durbar Festival",
-    "short_description": "A centuries-old Hausa equestrian festival marking Eid celebrations.",
-    "image_url": "/Images/eid1.jpeg",
-    "details": {
-      "celebrated_by": "Hausa communities",
-      "location": "Nigeria",
-      "date": "During Eid al-Fitr and Eid al-Adha",
-      "duration": "Several days",
-      "participants": "Thousands",
-      "organizer": "Local Emirs",
-      "is_free": true
-    },
-    "description": {
-      "full_description": "The Durbar Festival is a colorful celebration featuring mounted parades of horsemen, traditional music, and displays of allegiance to local Emirs."
-    },
-    "traditions_and_practices": [
-      "Mounted parades",
-      "Music and drumming",
-      "Traditional costumes",
-      "Ceremonial displays"
-    ],
-    "gallery_images": [
-      "/Images/eid1.jpeg",
-      "/Images/eid2.jpeg",
-      "/Images/eid3.jpeg"
-    ]
-  },
-  {
-    "id": "osun",
-    "name": "Osun-Osogbo Festival",
-    "short_description": "A two-week Yoruba festival honoring the river goddess Osun.",
-    "image_url": "/Images/eid3.jpeg",
-    "details": {
-      "celebrated_by": "Yoruba communities",
-      "location": "Osogbo, Nigeria",
-      "date": "August annually",
-      "duration": "2 weeks",
-      "participants": "Thousands",
-      "organizer": "Local priests and community leaders",
-      "is_free": true
-    },
-    "description": {
-      "full_description": "The festival is held at the sacred grove of Osun, featuring rituals, drumming, and the famous Arugba procession."
-    },
-    "traditions_and_practices": [
-      "Arugba procession",
-      "Sacred river rituals",
-      "Drumming and dancing",
-      "Community gatherings"
-    ],
-    "gallery_images": [
-      "https://picsum.photos/id/1005/400/250",
-      "https://picsum.photos/id/1006/400/250",
-      "https://picsum.photos/id/1007/400/250"
-    ]
-  },
-  {
-    "id": "cape-town-minstrel",
-    "name": "Cape Town Minstrel Carnival",
-    "short_description": "A cultural festival in South Africa with music, dance, and colorful costumes.",
-    "image_url": "https://picsum.photos/id/1003/400/250",
-    "details": {
-      "celebrated_by": "Cape Town communities",
-      "location": "Cape Town, South Africa",
-      "date": "January annually",
-      "duration": "1 day",
-      "participants": "Thousands",
-      "organizer": "Local cultural groups",
-      "is_free": true
-    },
-    "description": {
-      "full_description": "The carnival features vibrant parades with music, dancing, and elaborately decorated costumes, reflecting South Africa’s rich cultural heritage."
-    },
-    "traditions_and_practices": [
-      "Parades",
-      "Music and dance",
-      "Colorful costumes",
-      "Community celebrations"
-    ],
-    "gallery_images": [
-      "https://picsum.photos/id/1003/400/250",
-      "https://picsum.photos/id/1004/400/250",
-      "https://picsum.photos/id/1005/400/250"
-    ]
   }
 ]
-]
-
