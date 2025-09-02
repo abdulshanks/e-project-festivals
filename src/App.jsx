@@ -7,7 +7,7 @@ import Gallery from "./Pages/Gallery";
 import Sitemap from "./Pages/Sitemap";
 import NotFound from "./Pages/NotFound";
 import Navbar from "./Components/Navbar";
-import Footer from "./Components/Footer";
+
 export function App() {
   return (
     <div>
@@ -21,8 +21,8 @@ export function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/sitemap" element={<Sitemap />} />
           <Route path="*" element={<NotFound />} />
+          // ...existing code...
         </Routes>
-        <Footer />
       </Router>
     </div>
   );
