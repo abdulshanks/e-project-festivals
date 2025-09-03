@@ -1,9 +1,10 @@
 import React from "react";
+import SiteMap from "../Components/Sitemap";
 
 const Sitemap = () => {
   return (
     <div>
-      <h1>Sitemap</h1>
+      <SiteMap />
     </div>
   );
 };
