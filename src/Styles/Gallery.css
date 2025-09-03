@@ -11,7 +11,7 @@
   position: relative;
   overflow: hidden;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .image-container {
@@ -38,7 +38,7 @@
   left: 0;
   right: 0;
   top: 0;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0, 0, 0, 0.6);
   color: white;
   opacity: 0;
   display: flex;
@@ -79,7 +79,8 @@
   flex-wrap: wrap;
 }
 
-input, select {
+input,
+select {
   padding: 8px;
   border-radius: 5px;
   border: 1px solid #ddd;
@@ -192,7 +193,7 @@ input, select {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .image-container {
@@ -219,7 +220,7 @@ input, select {
   left: 0;
   right: 0;
   top: 0;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0, 0, 0, 0.6);
   color: white;
   opacity: 0;
   display: flex;
@@ -260,7 +261,8 @@ input, select {
   flex-wrap: wrap;
 }
 
-input, select {
+input,
+select {
   padding: 8px;
   border-radius: 5px;
   border: 1px solid #ddd;
@@ -431,7 +433,8 @@ h1 {
   font-weight: bold;
 }
 
-.overlay p, .overlay span {
+.overlay p,
+.overlay span {
   font-size: 0.9rem;
   opacity: 0.9;
 }
@@ -440,7 +443,7 @@ h1 {
 .modal {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.95);
+  background: rgba(0, 0, 0, 0.95);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -480,8 +483,14 @@ h1 {
 
 /* Animation */
 @keyframes zoomIn {
-  from { transform: scale(0.6); opacity: 0; }
-  to { transform: scale(1); opacity: 1; }
+  from {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 /* Modal background */
 .modal {
@@ -522,8 +531,8 @@ h1 {
 
 /* Fullscreen Image */
 .fullscreen-image {
-  width: 100vw;   /* full viewport width */
-  height: 100vh;  /* full viewport height */
+  width: 100vw; /* full viewport width */
+  height: 100vh; /* full viewport height */
   object-fit: contain; /* keeps aspect ratio */
 }
 

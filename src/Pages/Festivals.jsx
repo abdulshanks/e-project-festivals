@@ -106,10 +106,10 @@ function Festivals() {
     <div className="festivals-container">
       <FestivalStats />
       <FestivalFilter onFilterChange={handleFilterChange} />
-      <header className="header">
+      {/* <header className="header">
         <h1>Discover World Festivals</h1>
         <p>Strengthening cultural understanding through celebration</p>
-      </header>
+      </header> */}
       <main className="festivals-grid">
         {filteredFestivals.length > 0 ? (
           filteredFestivals.map((festival) => (

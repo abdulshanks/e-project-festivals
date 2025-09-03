@@ -1,6 +1,8 @@
+/* Base Styles for all screen sizes (Mobile-first approach) */
 body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
   background-color: #121212;
   color: #f1f1f1;
   line-height: 1.6;
@@ -10,87 +12,18 @@ body {
   overflow-x: hidden;
 }
 
-section {
-  padding: 3rem 1.5rem;
-}
-.navbar {
-  background: #1f1f1f;
-  padding: 1rem 2rem;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+.Section {
+  padding: 2rem 1rem; /* Adjust padding for smaller screens */
 }
 
-.navbar ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  gap: 2rem;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar li {
-  cursor: pointer;
-  color: #f1f1f1;
-  font-weight: 500;
-  transition: color 0.3s ease, transform 0.2s ease;
-}
-
-.navbar li:hover {
-  color: cyan;
-  transform: scale(1.1);
-}
-.header {
-  text-align: center;
-  padding: 5rem 1rem;
-  background: linear-gradient(135deg, #1a1a1a, #292929);
-  border-bottom: 2px solid cyan;
-}
-
-.header h1 {
-  font-size: 3rem;
-  font-weight: bold;
-  color: white;
-  margin-bottom: 0.8rem;
-  text-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
-  animation: fadeInDown 1.2s ease;
-}
-
-.header p {
-  font-size: 1.3rem;
-  color: #bbbbbb;
-  animation: fadeInUp 1.2s ease;
-}
-
-@keyframes fadeInDown {
-  from {
-    opacity: 0;
-    transform: translateY(-30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
+/* About Page Styles */
 .about {
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
   animation: fadeIn 1.5s ease;
 }
+
 .stats {
   display: flex;
   justify-content: center;
@@ -123,6 +56,7 @@ section {
 .stat-box p {
   color: #bbb;
 }
+
 .mvv {
   display: flex;
   justify-content: center;
@@ -160,6 +94,7 @@ section {
 .card li {
   margin-bottom: 0.5rem;
 }
+
 .our-story {
   background: #1f1f1f;
   padding: 3rem 2rem;
@@ -197,16 +132,6 @@ section {
   color: cyan;
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(40px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 .what-we-do {
   background-color: #0f172a; /* dark background */
   color: white;
@@ -250,15 +175,7 @@ section {
   font-size: 0.95rem;
   color: #d1d5db;
 }
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(40px);
-  }
-  to {
-    opacity: 1;
-  }
-}
+
 .leadership-section {
   background-color: #0f172a;
   color: white;
@@ -363,6 +280,7 @@ section {
   font-size: 0.95rem;
   color: #f1f5f9;
 }
+
 .button-group {
   background-color: #1e293b; /* same dark background */
   border-radius: 1rem;
@@ -404,4 +322,15 @@ section {
 .button-group button:hover {
   transform: translateY(-3px);
   box-shadow: 0 6px 15px rgba(56, 189, 248, 0.6); /* hover glow */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
