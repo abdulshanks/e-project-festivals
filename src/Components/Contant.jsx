@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Card from "./Card";
 import DepartmentCard from "./DepartmentCard";
 import { departments } from "../data/departmentData";
-import "./../styles/Contact.css";
+import "../Styles/Contact.css";
 
 function Contact() {
   const offices = [

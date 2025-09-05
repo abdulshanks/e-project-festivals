@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Festivals.css";
+import "../Styles/Festivals.css";
 
 const FestivalStats = () => {
   return (

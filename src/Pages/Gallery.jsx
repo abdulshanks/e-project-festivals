@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import festivalsData from "../Data/festivals.json";
 import GalleryCard from "../Components/GalleryCard"; // New component
-import "../styles/Gallery.css";
+import "../Styles/Gallery.css";
 import Layout from "../Components/Layout";
 
 const Gallery = () => {

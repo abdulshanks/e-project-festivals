@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import VisualMap from "./VisualMap";
 import TextMap from "./TextMap";
-import "./../Styles/Sitemap.css";
+import "../Styles/Sitemap.css";
 
 function SiteMapToggle() {
   const [view, setView] = useState("visual");

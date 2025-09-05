@@ -1,7 +1,7 @@
 import CircleCard from "./CircleCard";
 import { useNavigate } from "react-router-dom";
 import Layout from "./Layout";
-import "./../Styles/Sitemap.css";
+import "../Styles/Sitemap.css";
 import SiteMapToggle from "./SiteMapToggle";
 
 export default function SiteMap() {
