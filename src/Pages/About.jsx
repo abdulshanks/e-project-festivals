@@ -18,27 +18,42 @@ const buttons = [
 
 const leaders = [
   {
-    initials: "AM",
+    initials: "AR",
     bgColor: "#3b82f6", // blue
-    name: "Dr. Aria Moonlight",
+    name: "Mr Abdulrahman Abass",
     role: "Founder & CEO",
     description:
       "Cultural anthropologist with 20+ years in international festival management",
   },
   {
-    initials: "RC",
+    initials: "SC",
     bgColor: "#22c55e", // green
-    name: "Dr. Raj Cultura",
+    name: "Mr Shapton Chukwuyere",
     role: "Director of Cultural Affairs",
     description: "Expert in cross-cultural communication and festival curation",
   },
   {
-    initials: "MH",
+    initials: "IO",
     bgColor: "#f97316", // orange
-    name: "Maria Harmony",
+    name: "Mr Israel Okwunwanne",
     role: "Head of Operations",
     description:
       "International project manager specializing in large-scale cultural events",
+  },
+  {
+    initials: "AA",
+    bgColor: "#f91616ff", // orange
+    name: "Mr Abdulrahman Ajibola",
+    role: "Regional Head",
+    description: "Expert in all local festivals held around the world",
+  },
+  {
+    initials: "AD",
+    bgColor: "#f916eeff", // orange
+    name: "Mr Agunbiade Daniel",
+    role: "Assistant Head Of Operations",
+    description:
+      "International project assistant manager specializing in minority festivals study",
   },
 ];
 
