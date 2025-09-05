@@ -5,7 +5,7 @@ import FestivalPopup from "../Components/FestivalPopup";
 import UpcomingFestivals from "../Components/UpcomingFestival";
 import FestivalFeedbackForm from "../Components/FeedbackForm";
 import FestivalFilter from "../Components/FestivalFilter";
-import "../styles/Festivals.css";
+import "../Styles/Festivals.css";
 import FestivalStats from "../Components/FestivalStats";
 
 function Festivals() {
