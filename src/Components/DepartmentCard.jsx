@@ -1,3 +1,6 @@
+import React from "react";
+import "./../styles/Contact.css";
+
 const DepartmentCard = ({ title, email, phone, description }) => {
   return (
     <div className="department-card">

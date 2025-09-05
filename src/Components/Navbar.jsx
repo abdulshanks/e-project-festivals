@@ -1,42 +1,47 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../Styles/Navbar.css";
-// You can keep the image import if you are using a local asset.
-// import EidBackground from "../Images/eid1.jpeg";
+import ChristmasBackground from "../christmas1.png";
 
 const Navbar = () => {
   const [visitors, setVisitors] = useState(0);
-  const [isDarkMode, setIsDarkMode] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [theme, setTheme] = useState("dark-mode");
 
   useEffect(() => {
-    if (
-      process.env.NODE_ENV === "development" &&
-      !localStorage.getItem("isCounted")
-    ) {
-      localStorage.setItem("isCounted", "true");
-      return;
-    }
-
-    let currentVisitors = parseInt(localStorage.getItem("visitors") || "0", 10);
+    let currentVisitors = parseInt(
+      localStorage.getItem("visitors") || "26",
+      10
+    );
     currentVisitors += 1;
     setVisitors(currentVisitors);
     localStorage.setItem("visitors", currentVisitors);
 
-    return () => {
-      if (process.env.NODE_ENV === "development") {
-        localStorage.removeItem("isCounted");
-      }
-    };
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme) {
+      setTheme(savedTheme);
+    }
   }, []);
 
-  const toggleTheme = () => {
-    setIsDarkMode(!isDarkMode);
-    document.body.classList.toggle("dark-mode");
-  };
+  useEffect(() => {
+    // This effect ensures the body class is always in sync with the theme state
+    document.body.classList.remove("dark-mode", "light-mode");
+    document.body.classList.add(theme);
+    localStorage.setItem("theme", theme);
+  }, [theme]);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
+  const toggleTheme = () => {
+    setTheme((prevTheme) =>
+      prevTheme === "dark-mode" ? "light-mode" : "dark-mode"
+    );
   };
 
   return (
@@ -47,45 +52,64 @@ const Navbar = () => {
             <h1>MOONLIGHT EVENTS</h1>
             <p>Celebrating Global Festivals</p>
           </div>
-          <div className="visitor-details">
-            <div className="toggle-mode" onClick={toggleTheme}>
-              <i className={`fas ${isDarkMode ? "fa-sun" : "fa-moon"}`}></i>
-            </div>
-            <div className="visitor-count">
-              Visitors
+          <div className="visitor-and-hamburger">
+            <div className="visitor-count-container">
+              <p>Visitors</p>
               <span>{visitors.toLocaleString()}</span>
+            </div>
+            <button
+              id="theme-toggle"
+              aria-label="Toggle light and dark mode"
+              onClick={toggleTheme}
+            >
+              {theme === "dark-mode" ? "🌙" : "☀️"}
+            </button>
+            <div className="hamburger-menu" onClick={toggleMenu}>
+              <i className="fas fa-bars"></i>
             </div>
           </div>
         </div>
-        <div className="page-details">
-          <h1>Discover World Festivals</h1>
-          <p>Strengthening cultural understanding through celebration</p>
+        <div
+          className="hero-section"
+          style={{ backgroundImage: `url(${ChristmasBackground})` }}
+        >
+          <div className="hero-content">
+            <h1>Discover World Festivals</h1>
+            <p>Strengthening cultural understanding through celebration</p>
+          </div>
         </div>
       </header>
-
-      {/* The main navigation bar, now part of the normal page flow */}
-      <nav className={`main-nav ${isDarkMode ? "dark-mode" : ""}`}>
-        <div className="menu-icon" onClick={toggleMenu}>
-          <i className="fas fa-bars"></i>
-        </div>
+      <nav className="main-nav">
         <ul className={`nav-links ${isMenuOpen ? "open" : ""}`}>
           <li>
-            <Link to="/">Festivals</Link>
+            <Link to="/" onClick={closeMenu}>
+              Festivals
+            </Link>
           </li>
           <li>
-            <Link to="/gallery">Gallery</Link>
+            <Link to="/gallery" onClick={closeMenu}>
+              Gallery
+            </Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about" onClick={closeMenu}>
+              About
+            </Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact" onClick={closeMenu}>
+              Contact
+            </Link>
           </li>
           <li>
-            <Link to="/faq">FAQ</Link>
+            <Link to="/faq" onClick={closeMenu}>
+              FAQ
+            </Link>
           </li>
           <li>
-            <Link to="/sitemap">Sitemap</Link>
+            <Link to="/sitemap" onClick={closeMenu}>
+              Sitemap
+            </Link>
           </li>
         </ul>
       </nav>

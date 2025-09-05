@@ -278,6 +278,7 @@
 .popup-image img {
   width: 100%;
   height: 400px;
+  object-fit: cover;
   border-radius: 8px;
   margin-bottom: 20px;
 }
@@ -481,4 +482,150 @@ body.no-scroll {
   flex-direction: row;
   gap: 10px;
   margin-bottom: 10px;
+}
+
+/* Light Mode Styles for the Festivals Page */
+
+body.light-mode .festivals-container {
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+/* Stats Section */
+body.light-mode .stats-container .stat-card {
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .stat-card h3 {
+  color: #333;
+}
+
+body.light-mode .stat-card p {
+  color: #666;
+}
+
+/* Filter Section */
+body.light-mode .filter-container {
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .filter-container .filter-title {
+  color: #333;
+}
+
+body.light-mode .filter-container .filter-icon {
+  color: #666;
+}
+
+body.light-mode .filter-container .filter-label {
+  color: #666;
+}
+
+body.light-mode .filter-container .filter-select {
+  background-color: #e9ecef;
+  color: #333;
+  border: 1px solid #ccc;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="black" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+}
+
+/* Main Festivals Grid */
+body.light-mode .festivals-grid {
+  /* No changes needed for the grid layout */
+}
+
+/* Festival Card */
+body.light-mode .festival-card {
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .festival-card:hover {
+  box-shadow: 0 12px 24px rgba(160, 64, 255, 0.4);
+}
+
+body.light-mode .festival-card h6,
+body.light-mode .festival-card p {
+  color: #666;
+}
+
+/* Upcoming Festivals Card */
+body.light-mode .upcoming-festivals-card {
+  background-color: #ffffff;
+}
+
+body.light-mode .upcoming-festivals-header h4 {
+  color: #333;
+}
+
+body.light-mode .upcoming-festival-item {
+  background-color: #e9ecef;
+}
+
+body.light-mode .festival-name {
+  color: #333;
+}
+
+body.light-mode .festival-date-location {
+  color: #666;
+}
+
+body.light-mode .festival-price {
+  color: #333;
+}
+
+/* Feedback Form Card */
+body.light-mode .feedback-form-card {
+  background-color: #ffffff;
+}
+
+body.light-mode .feedback-header h4 {
+  color: #333;
+}
+
+body.light-mode .form-group label {
+  color: #666;
+}
+
+body.light-mode .form-group input,
+body.light-mode .form-group select,
+body.light-mode .form-group textarea {
+  background-color: #e9ecef;
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+body.light-mode .submit-btn {
+  background-color: #a040ff;
+  color: #fff;
+}
+
+body.light-mode .contact-btn {
+  background-color: #d1d9e2;
+  color: #555;
+}
+
+/* Popup */
+body.light-mode .popup-content {
+  background-color: #ffffff;
+  color: #333;
+}
+
+body.light-mode .close-btn {
+  color: #333;
+}
+
+body.light-mode .popup-details li {
+  background-color: #e9ecef;
+  color: #333;
+}
+
+body.light-mode .download-btn {
+  background-color: #a040ff;
+  color: #fff;
+}
+
+body.light-mode .popup-image-down {
+  background-color: #f8f9fa;
 }

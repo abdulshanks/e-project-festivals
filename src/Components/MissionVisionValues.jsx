@@ -3,8 +3,9 @@ import "../Styles/About.css";
 
 function MissionVisionValues() {
   return (
-    <div className="mvv">
+    <div className="mvv-grid">
       <div className="card">
+        <div className="icon">🎯</div>
         <h3>Our Mission</h3>
         <p>
           To strengthen young people’s understanding of diverse cultures,
@@ -13,6 +14,7 @@ function MissionVisionValues() {
         </p>
       </div>
       <div className="card">
+        <div className="icon">🌟</div>
         <h3>Our Vision</h3>
         <p>
           A world where cultural diversity is celebrated and preserved, where
@@ -21,6 +23,7 @@ function MissionVisionValues() {
         </p>
       </div>
       <div className="card">
+        <div className="icon">🤝</div>
         <h3>Our Values</h3>
         <ul>
           <li>✔ Cultural Respect</li>

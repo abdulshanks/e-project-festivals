@@ -1,28 +1,31 @@
 import React, { useState } from "react";
 import VisualMap from "./VisualMap";
 import TextMap from "./TextMap";
-import "./../Styles/SiteMap.css";
+import "./../Styles/Sitemap.css";
 
-function SiteMap() {
+function SiteMapToggle() {
   const [view, setView] = useState("visual");
 
   return (
-    <main className="site-map-wrapper">
-      {/* <header className="header">
-        <h1>Site Map</h1>
-        <p>Navigate through our website structure and discover all available features.</p>
-      </header> */}
-
-      <nav className="toggle-container" aria-label="Map view toggle">
+    <div className="toggle-view-container">
+      <nav className="toggle-options" aria-label="Map view toggle">
         <button
-          className={view === "visual" ? "active" : ""}
+          className={
+            view === "visual"
+              ? "toggle-button toggle-button--active"
+              : "toggle-button"
+          }
           onClick={() => setView("visual")}
           aria-pressed={view === "visual"}
         >
           Visual Map
         </button>
         <button
-          className={view === "text" ? "active" : ""}
+          className={
+            view === "text"
+              ? "toggle-button toggle-button--active"
+              : "toggle-button"
+          }
           onClick={() => setView("text")}
           aria-pressed={view === "text"}
         >
@@ -33,8 +36,8 @@ function SiteMap() {
       <section className="map-content">
         {view === "visual" ? <VisualMap /> : <TextMap />}
       </section>
-    </main>
+    </div>
   );
 }
 
-export default SiteMap;
+export default SiteMapToggle;

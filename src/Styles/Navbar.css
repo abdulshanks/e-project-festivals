@@ -1,21 +1,56 @@
-/* Base Styles for all screen sizes (Mobile-first approach) */
-body {
-  margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+/* Universal box-sizing for consistent layout */
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  background-color: #121212;
-  color: #f1f1f1;
-  line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
-/* Header containing the logo, visitor count, and background image section */
+:root {
+  /* Dark mode variables (default) */
+  --bg-color: #121212;
+  --text-color: #f1f1f1;
+}
+
+body.light-mode {
+  /* Light mode variables */
+  --bg-color: #f0f2f5;
+  --text-color: #333;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-color); /* Use variable here */
+  color: var(--text-color); /* Use variable here */
+  line-height: 1.6;
+  overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* The entire header section, containing the gradient and all sub-sections */
 .header {
-  background: linear-gradient(to right, #2c0b4f, #1f1f1f);
-  color: #f1f1f1;
-  padding: 1rem 2rem;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(77, 0, 153, 1) 0%,
+    rgba(141, 0, 255, 1) 40%,
+    rgba(0, 180, 255, 1) 100%
+  );
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
-  transition: background 0.3s ease;
-  padding-bottom: 2rem; /* Add some space below the hero section */
+  color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  position: relative;
+  z-index: 10;
+}
+
+/* Light mode styles for the header */
+body.light-mode .header {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Top bar with logo and visitor count */
@@ -23,13 +58,21 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 1rem;
+  padding: 0.8rem 2rem;
+  flex-shrink: 0;
+  min-height: 60px;
+  width: 100%;
 }
 
 .logo h1 {
   font-size: 1.5rem;
   margin: 0;
-  color: #f1f1f1;
+  color: #ffcc00;
+}
+
+/* Light mode styles for the logo */
+body.light-mode .logo h1 {
+  color: #a040ff;
 }
 
 .logo p {
@@ -38,104 +81,143 @@ body {
   color: #c0c0c0;
 }
 
-.visitor-details {
+/* Light mode styles for logo text */
+body.light-mode .logo p {
+  color: #666;
+}
+
+.visitor-count-container {
   display: flex;
-  align-items: center;
-  gap: 1.5rem;
-}
-
-.toggle-mode {
-  cursor: pointer;
-  font-size: 1.5rem;
-  transition: transform 0.2s ease;
-}
-
-.toggle-mode:hover {
-  transform: scale(1.1);
-}
-
-.visitor-count {
-  display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 0.5rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
+  color: #f1f1f1;
 }
 
-.visitor-count span {
+.visitor-count-container p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #c0c0c0;
+}
+
+.visitor-count-container span {
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #ffcc00;
 }
 
-.page-details {
-  text-align: center;
-  margin: 1rem 0;
-  padding: 3rem 1rem;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #f1f1f1;
-  border-radius: 8px;
-  min-height: 200px;
+/* Light mode styles for visitor count */
+body.light-mode .visitor-count-container p,
+body.light-mode .visitor-count-container span {
+  color: #666;
+}
+
+body.light-mode .visitor-count-container span {
+  color: #a040ff;
+}
+
+/* The new theme toggle button */
+#theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  transition: transform 0.2s ease-in-out;
+  color: #ffcc00;
+}
+
+#theme-toggle:hover {
+  transform: scale(1.1);
+}
+
+/* Light mode styles for the theme toggle button */
+body.light-mode #theme-toggle {
+  color: #a040ff;
+}
+
+/* Hero section with background image and main text */
+.hero-section {
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
   position: relative;
-  /* Use your image path here */
-  background-image: url("../Images/eid1.jpeg");
+  padding: 1rem 0;
+  width: 100%;
 }
 
-.page-details::before {
+/* overlay for the hero background image */
+.hero-section::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.4);
   z-index: 1;
+  transition: background-color 0.3s ease;
 }
 
-.page-details h1,
-.page-details p {
+/* Light mode styles for hero overlay */
+body.light-mode .hero-section::before {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.hero-content {
   position: relative;
   z-index: 2;
-  color: #fff;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  color: #f1f1f1;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+  background-color: transparent;
+  padding: 0.5rem 1.5rem;
+  width: 100%;
+  max-width: 1200px;
 }
 
-.page-details h1 {
+.hero-content h1 {
   font-size: 2.5rem;
   margin: 0;
+  color: #f1f1f1;
+  letter-spacing: 1px;
 }
 
-.page-details p {
+.hero-content p {
   font-size: 1rem;
   margin-top: 0.5rem;
+  color: #c0c0c0;
 }
 
-/* Main Navigation Bar (Normal flow, not fixed) */
+/* Main navigation bar - a distinct dark bar below hero */
 .main-nav {
+  width: 100%;
   display: flex;
   justify-content: center;
-  background: #2c0b4f; /* Matches header background for consistency */
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
-  padding: 1rem 2rem;
+  /* background-color: #0d1b2a; */
+  padding: 0.8rem 2rem;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 3;
   transition: background-color 0.3s ease;
-  margin-top: 1rem; /* Adds space between the hero section and nav links */
 }
 
-.main-nav.dark-mode {
-  background-color: #0a0a0a;
+/* Light mode styles for main nav */
+body.light-mode .main-nav {
+  background-color: #e2eaf4;
 }
 
 .nav-links {
   display: flex;
   justify-content: center;
   list-style: none;
-  gap: 2rem;
+  gap: 2.5rem;
   margin: 0;
   padding: 0;
 }
@@ -146,77 +228,169 @@ body {
   font-weight: 500;
   text-decoration: none;
   transition: all 0.3s ease;
-  position: relative;
-  overflow: hidden;
   padding: 0.5rem 0;
+  white-space: nowrap;
 }
 
-.nav-links li a::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #ff6347;
-  transform: translateX(-100%);
-  transition: transform 0.3s ease;
-}
-
-.nav-links li a:hover::after {
-  transform: translateX(0);
+/* Light mode styles for nav links */
+body.light-mode .nav-links li a {
+  color: #333;
 }
 
 .nav-links li a:hover {
-  color: #ff6347;
+  color: #4db6ac;
 }
 
-/* Mobile responsive styles */
+/* Light mode hover for nav links */
+body.light-mode .nav-links li a:hover {
+  color: #a040ff;
+}
+
+/* Hamburger menu button - initially hidden on desktop */
+.hamburger-menu {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #f1f1f1;
+  background: none;
+  border: none;
+  padding: 0;
+  z-index: 10;
+}
+
+/* Light mode styles for hamburger menu */
+body.light-mode .hamburger-menu {
+  color: #333;
+}
+
+/* Mobile Responsive Styles */
 @media (max-width: 768px) {
   .header {
-    padding-bottom: 2rem;
+    height: auto;
+    min-height: unset;
+  }
+  .top-bar {
+    padding: 0.6rem 1rem;
+    min-height: 50px;
+  }
+  .logo h1 {
+    font-size: 1.2rem;
+  }
+  .logo p {
+    font-size: 0.7rem;
+  }
+  .visitor-count-container {
+    font-size: 0.7rem;
+    gap: 0.2rem;
+  }
+  .visitor-count-container p {
+    font-size: 0.7rem;
+  }
+  .visitor-count-container span {
+    font-size: 0.85rem;
+  }
+
+  .hamburger-menu {
+    display: block;
+    font-size: 1.5rem;
+  }
+
+  .hero-section {
+    padding: 0.8rem 0;
+    min-height: 120px;
+    background-position: center center;
+  }
+  .hero-content {
+    padding: 0.8rem 1rem;
+  }
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+  .hero-content p {
+    font-size: 0.8rem;
   }
 
   .main-nav {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 1rem;
-    margin-top: 1rem; /* Keep a margin on mobile */
+    padding: 0;
+    background-color: transparent;
   }
 
-  .nav-links {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    gap: 1.5rem;
+  /* Nav links hidden by default on mobile */
+  .main-nav .nav-links {
     display: none;
-    transition: all 0.3s ease;
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.95);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 0.8rem 0;
   }
 
-  .nav-links.open {
+  /* Light mode mobile nav */
+  body.light-mode .main-nav .nav-links {
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+
+  /* Show nav links when menu is open */
+  .main-nav .nav-links.open {
     display: flex;
   }
 
-  .menu-icon {
-    display: block;
-    font-size: 1.8rem;
-    cursor: pointer;
-    margin-bottom: 1rem;
-    align-self: flex-end;
+  .main-nav .nav-links li {
+    width: 90%;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0.8rem 0;
+  }
+  /* Light mode mobile border */
+  body.light-mode .main-nav .nav-links li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
 
+  .main-nav .nav-links li:last-child {
+    border-bottom: none;
+  }
+
+  .main-nav .nav-links li a {
+    padding: 0;
+    display: block;
+    font-size: 1.1rem;
+  }
+}
+
+/* Smaller mobile devices (e.g., iPhone SE) */
+@media (max-width: 480px) {
   .top-bar {
-    flex-direction: column;
-    text-align: center;
-    gap: 1rem;
+    padding: 0.5rem 0.6rem;
   }
-  .visitor-details {
-    justify-content: center;
+  .logo h1 {
+    font-size: 1rem;
   }
-  .page-details h1 {
-    font-size: 1.8rem;
+  .logo p {
+    font-size: 0.6rem;
   }
-  .page-details p {
-    font-size: 0.9rem;
+  .visitor-count-container {
+    gap: 0.1rem;
+  }
+  .visitor-count-container p {
+    font-size: 0.6rem;
+  }
+  .visitor-count-container span {
+    font-size: 0.7rem;
+  }
+  .hamburger-menu {
+    font-size: 1.3rem;
+  }
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+  .hero-content p {
+    font-size: 0.7rem;
   }
 }

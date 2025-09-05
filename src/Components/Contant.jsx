@@ -38,34 +38,30 @@ function Contact() {
     },
   ];
 
+  // Updated officeHours array
   const officeHours = [
     {
-      region: "🏢 Main Office (EST)",
-      weekdays: "Monday – Friday: 9:00 AM – 5:00 PM",
-      weekends: "Saturday – Sunday: Closed",
+      region: "Main Office (EST)",
+      weekdays: "Monday - Friday: 9:30 AM - 6:00 PM",
+      weekends: "Saturday: 10:00 AM - 4:00 PM",
+      sunday: "Sunday: Closed",
     },
     {
-      region: "🌏European Office (CET)",
-      weekdays: "Monday – Friday: 9:00 AM – 5:00 PM",
-      weekends: "Saturday – Sunday: Closed",
+      region: "European Office (CET)",
+      weekdays: "Monday - Friday: 9:00 AM - 6:00 PM",
+      weekends: "Saturday: 9:00 AM - 1:00 PM",
+      sunday: "Sunday: Closed",
     },
     {
-      region: "🌏Asia-Pacific Office (SGT)",
-      weekdays: "Monday – Friday: 9:00 AM – 5:00 PM",
-      weekends: "Saturday – Sunday: Closed",
+      region: "Asia-Pacific Office (SGT)",
+      weekdays: "Monday - Friday: 9:00 AM - 6:00 PM",
+      weekends: "Saturday: 10:00 AM - 2:00 PM",
+      sunday: "Sunday: Closed",
     },
-  ];
-
-  const socialLinks = [
-    { name: "Facebook", icon: "fab fa-facebook-f", url: "https://facebook.com", },
-    { name: "Instagram", icon: "fab fa-instagram", url: "https://instagram.com" },
-    { name: "Twitter", icon: "fab fa-twitter", url: "https://twitter.com" },
-    { name: "YouTube", icon: "fab fa-youtube", url: "https://youtube.com" },
-    { name: "LinkedIn", icon: "fab fa-linkedin-in", url: "https://linkedin.com" },
   ];
 
   const [formData, setFormData] = useState({
-    fullName: "",
+    name: "",
     email: "",
     subject: "",
     message: "",
@@ -81,102 +77,43 @@ function Contact() {
     }));
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-
-    const { fullName, email, subject, message } = formData;
-
-    if (!fullName || !email || !subject || !message) {
-      alert("Please fill in all fields.");
-      return;
-    }
-
     setIsSubmitting(true);
-
-    try {
-      const response = await fetch(`${process.env.REACT_APP_API_URL}/api/contact`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      });
-
-      const result = await response.json();
-
-      if (response.ok && result.success) {
-        alert("Message sent successfully!");
-        setFormData({ fullName: "", email: "", subject: "", message: "" });
-      } else {
-        alert(result.message || "Failed to send message. Please try again later.");
-      }
-    } catch (error) {
-      console.error("Error submitting form:", error);
-      alert("Unable to connect to the server. Please try again later.");
-    } finally {
+    // Simulate API call
+    setTimeout(() => {
+      console.log("Form submitted:", formData);
       setIsSubmitting(false);
-    }
+      alert("Message sent successfully!");
+    }, 2000);
   };
 
   return (
     <div className="contact-page">
-      <h1>Contact MOONLIGHT EVENTS</h1>
+      <h1 className="contact-heading">Get In Touch</h1>
       <p className="contact-intro">
-        Get in touch with us for partnerships, inquiries, or to learn more about our cultural festivals worldwide.
+        We're here to help! Whether you have a question, a suggestion, or just
+        want to share your festival experience, feel free to reach out to us.
       </p>
 
+      <h2 className="department-heading">Our Offices</h2>
       <div className="contact-grid">
         {offices.map((office, index) => (
           <Card key={index} title={office.title} lines={office.lines} />
         ))}
       </div>
 
-      <h1 className="department-heading">Contact by Department</h1>
-      <div className="department-grid">
-        {departments.map((dept, index) => (
-          <DepartmentCard
-            key={index}
-            title={dept.title}
-            email={dept.email}
-            phone={dept.phone}
-            description={dept.description}
-          />
-        ))}
-      </div>
-
-<div className="follow-us-container">
-  <h2 className="department-heading">Follow Us In</h2>
-  <div className="social-icons">
-    {socialLinks.map((link) => (
-      <a
-        key={link.name}
-        href={link.url}
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label={link.name}
-        className="social-link"
-      >
-        <div className="icon-label">
-          <i className={link.icon}></i>
-          <span className="social-name">{link.name}</span>
-        </div>
-      </a>
-    ))}
-  </div>
-</div>
-
-
-
       <div className="contact-form-container">
-        <h2 className="department-heading">Send Us a Message</h2>
         <form className="contact-form" onSubmit={handleSubmit}>
           <div className="form-group">
-            <label>Full Name</label>
+            <label>Name</label>
             <input
               type="text"
-              name="fullName"
+              name="name"
               className="form-control"
-              value={formData.fullName}
+              value={formData.name}
               onChange={handleChange}
-              placeholder="Your name"
+              placeholder="Your Name"
             />
           </div>
           <div className="form-group">
@@ -212,7 +149,11 @@ function Contact() {
               placeholder="Type your message here..."
             ></textarea>
           </div>
-          <button type="submit" className="btn btn-primary" disabled={isSubmitting}>
+          <button
+            type="submit"
+            className="btn btn-primary"
+            disabled={isSubmitting}
+          >
             {isSubmitting ? "Sending..." : "Send Message"}
           </button>
         </form>
@@ -225,6 +166,7 @@ function Contact() {
             <h3>{entry.region}</h3>
             <p>🗓 {entry.weekdays}</p>
             <p>🚫 {entry.weekends}</p>
+            {entry.sunday && <p>🚫 {entry.sunday}</p>}
           </div>
         ))}
       </div>

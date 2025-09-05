@@ -99,9 +99,9 @@ function App() {
     <div className="app">
       {/* <Navbar /> */}
 
-      <section className="about">
-        <h2>About MOONLIGHT EVENTS</h2>
-        <p>
+      <section className="about-intro section-padding">
+        <h2 className="section-title">About MOONLIGHT EVENTS</h2>
+        <p className="intro-text">
           Bridging cultures, celebrating diversity, and fostering global
           understanding through the universal language of festivals.
         </p>
@@ -109,10 +109,10 @@ function App() {
         <MissionVisionValues />
       </section>
 
-      <section className="our-story">
+      <section className="our-story section-padding">
         <div className="our-story-header">
           <FaGlobe className="icon" />
-          <h2>Our Story</h2>
+          <h2 className="section-title">Our Story</h2>
         </div>
         <p>
           <span className="first-letter">F</span>ounded in 2009, MOONLIGHT
@@ -139,70 +139,81 @@ function App() {
           information about the rich tapestry of human culture.
         </p>
       </section>
-      <section className="services-grid">
-        {services.map((service, index) => (
-          <div className="card" key={index}>
-            <div className="icon" style={{ fontSize: "2rem" }}>
-              {service.icon}
+
+      <section className="services-section section-padding">
+        <h2 className="section-title text-center">Our Services</h2>
+        <div className="services-grid">
+          {services.map((service, index) => (
+            <div className="service-card" key={index}>
+              <div className="service-icon">{service.icon}</div>
+              <h3 className="service-title">{service.title}</h3>
+              <p className="service-description">{service.description}</p>
             </div>
-            <h3>{service.title}</h3>
-            <p>{service.description}</p>
-          </div>
-        ))}
-      </section>
-      {/* <div className="leadership-section">
-        <h2 className="section-title">Leadership Team</h2>
-      </div> */}
-      <div className="team-grid">
-        {leaders.map((leader, index) => (
-          <div className="team-card" key={index}>
-            <div className="avatar" style={{ backgroundColor: leader.bgColor }}>
-              {leader.initials}
-            </div>
-            <h3>{leader.name}</h3>
-            <h4>{leader.role}</h4>
-            <p>{leader.description}</p>
-          </div>
-        ))}
-      </div>
-      <section className="info-grid">
-        <div className="info-card">
-          <div className="icon" style={{ fontSize: "2rem" }}>
-            🏆
-          </div>
-          <h3>Awards & Recognition</h3>
-          <ul>
-            {awards.map((award, index) => (
-              <li key={index}>{award}</li>
-            ))}
-          </ul>
-        </div>
-        <div className="info-card">
-          <div className="icon" style={{ fontSize: "2rem" }}>
-            🔑
-          </div>
-          <h3>Key Partners</h3>
-          <ul>
-            {partners.map((partner, index) => (
-              <li key={index}>{partner}</li>
-            ))}
-          </ul>
+          ))}
         </div>
       </section>
 
-      <div className="button-group">
-        <h1>Join our mission</h1>
-        <h3>
+      <section className="leadership-section section-padding">
+        <h2 className="section-title text-center">Leadership Team</h2>
+        <div className="team-grid">
+          {leaders.map((leader, index) => (
+            <div className="team-card" key={index}>
+              <div
+                className="avatar"
+                style={{ backgroundColor: leader.bgColor }}
+              >
+                {leader.initials}
+              </div>
+              <h3 className="team-name">{leader.name}</h3>
+              <h4 className="team-role">{leader.role}</h4>
+              <p className="team-description">{leader.description}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="info-section section-padding">
+        <div className="info-grid">
+          <div className="info-card">
+            <div className="icon" style={{ fontSize: "2rem" }}>
+              🏆
+            </div>
+            <h3 className="info-title">Awards & Recognition</h3>
+            <ul className="info-list">
+              {awards.map((award, index) => (
+                <li key={index}>{award}</li>
+              ))}
+            </ul>
+          </div>
+          <div className="info-card">
+            <div className="icon" style={{ fontSize: "2rem" }}>
+              🔑
+            </div>
+            <h3 className="info-title">Key Partners</h3>
+            <ul className="info-list">
+              {partners.map((partner, index) => (
+                <li key={index}>{partner}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section className="call-to-action section-padding text-center">
+        <h1 className="cta-heading">Join our mission</h1>
+        <h3 className="cta-subheading">
           Whether you’re a municipality looking to host a festival, an artist
           wanting to showcase your talent, or an organization interested in
           cultural collaboration, we’d love to hear from you.
         </h3>
-        {buttons.map((button, index) => (
-          <button key={index} onClick={button.onClick}>
-            {button.label}
-          </button>
-        ))}
-      </div>
+        <div className="button-group">
+          {buttons.map((button, index) => (
+            <button key={index} className="cta-button" onClick={button.onClick}>
+              {button.label}
+            </button>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }

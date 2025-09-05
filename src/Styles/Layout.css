@@ -1,4 +1,5 @@
 /* Layout.css */
+
 .layout-container {
   display: flex;
   flex-direction: column;
@@ -8,6 +9,7 @@
 .main-content {
   display: flex;
   flex: 1;
+  background-color: #f0f0f0;
 }
 
 .sidebar {
@@ -18,8 +20,5 @@
 }
 
 .page-content {
-  flex: 1;
-  padding: 2rem;
-  background-color: #121212;
-  color: #f0f0f0;
+  width: 100%;
 }

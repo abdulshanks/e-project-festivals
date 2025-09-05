@@ -11,24 +11,78 @@ const FestivalPopup = ({ festival, onClose }) => {
       // This will remove the class when the popup component unmounts
       document.body.classList.remove("no-scroll");
     };
-  }, []); // The empty array ensures this effect runs only once
+  }, []);
 
   const handleDownload = () => {
-    const data = JSON.stringify(festival, null, 2);
-    const blob = new Blob([data], { type: "application/json" });
-    const url = URL.createObjectURL(blob);
+    // Construct the content for the Word document using HTML
+    const content = `
+      <html>
+        <head>
+          <meta charset="UTF-8">
+          <title>${festival.name} Details</title>
+          <style>
+            body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; }
+            h1 { color: #333; }
+            h2 { color: #555; margin-top: 25px; }
+            p { margin: 5px 0; }
+            ul { padding-left: 20px; }
+            li { margin-bottom: 5px; }
+          </style>
+        </head>
+        <body>
+          <h1>${festival.name}</h1>
+
+          <h2>Festival Details</h2>
+          <p><strong>Celebrated by:</strong> ${
+            festival.details.celebrated_by
+          }</p>
+          <p><strong>Location:</strong> ${festival.details.location}</p>
+          <p><strong>Date:</strong> ${festival.details.date}</p>
+          <p><strong>Duration:</strong> ${festival.details.duration}</p>
+          <p><strong>Participants:</strong> ${festival.details.participants}</p>
+
+          <h2>Full Description</h2>
+          <p>${festival.description.full_description}</p>
+
+          <h2>Historic Importance</h2>
+          <p>${festival.description.historic_importance}</p>
+
+          <h2>Traditions & Practices</h2>
+          <ul>
+            ${festival.traditions_and_practices
+              .map((item) => `<li>${item}</li>`)
+              .join("")}
+          </ul>
+        </body>
+      </html>
+    `;
+
+    // Create a Blob from the HTML content
+    const blob = new Blob([content], {
+      type: "application/msword;charset=utf-8",
+    });
+
+    // Create a download link
     const link = document.createElement("a");
-    link.href = url;
-    link.download = `${festival.name}-details.json`;
+    link.href = URL.createObjectURL(blob);
+    link.download = `${festival.name}-details.doc`;
+
+    // Append the link to the body and click it programmatically
     document.body.appendChild(link);
     link.click();
+
+    // Clean up
     document.body.removeChild(link);
-    URL.revokeObjectURL(url);
+    URL.revokeObjectURL(link.href);
   };
 
   return (
     <div className="popup-overlay" onClick={onClose}>
-      <div className="popup-content" onClick={(e) => e.stopPropagation()}>
+      <div
+        className="popup-content"
+        onClick={(e) => e.stopPropagation()}
+        id="festival-popup-content"
+      >
         <button className="close-btn" onClick={onClose}>
           &times;
         </button>

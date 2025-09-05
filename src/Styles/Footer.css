@@ -1,0 +1,64 @@
+.footer {
+  background-color: #5d2b7d;
+  color: white;
+  padding: 10px 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.footer-content {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px; /* Reduced gap to make space for the lines */
+  padding-left: 100%;
+  animation: marquee 30s linear infinite;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  position: relative; /* Needed for positioning the pseudo-element */
+  padding-right: 20px; /* Add space for the vertical line */
+}
+
+/* Style for the vertical lines */
+.footer-item::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 80%; /* Height of the line relative to the parent */
+  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white line */
+}
+
+/* Hide the vertical line on the last item */
+.footer-item:last-child::after {
+  display: none;
+}
+
+/* Keyframes for the marquee animation */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Optional: Styles for dark mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}

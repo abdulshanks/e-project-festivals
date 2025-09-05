@@ -1,5 +1,5 @@
 import React from "react";
-import SiteMap from "../Components/Sitemap";
+import SiteMap from "../Components/Sitemaps";
 
 const Sitemap = () => {
   return (
