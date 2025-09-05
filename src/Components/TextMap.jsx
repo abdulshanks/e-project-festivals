@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/SiteMap.css";
+import "../Styles/Sitemap.css";
 
 function TextMap() {
   return (
